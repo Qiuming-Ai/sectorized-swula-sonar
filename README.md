@@ -30,7 +30,7 @@ The study compares a 128-channel dense reference with 32-channel CDM and FDM imp
 
 ## Start here
 
-From the repository root, in a Python virtual environment:
+From the repository root, in a virtual environment with Python 3.11 or newer:
 
 ```sh
 python -m pip install -r requirements.txt
@@ -42,10 +42,9 @@ python code/wave_spatial/plot_final_figures.py
 python code/scenes/plot_submission_figures.py
 python code/plots/plot_density_main.py
 python code/plots/redraw_figure14_bars.py
-python code/jetson/plot_paper_figure15.py
 ```
 
-These commands verify the bundled evidence and replot Figures 2–5, 7–12 and 14–15 from saved data or archived analytical recipes. They write only under `outputs/`. They do not generate new echoes or rerun hardware. See [design and explanatory figures](code/design/README.md), [Jetson build, replay and measurements](code/jetson/README.md), and the [figure/table map](docs/evidence-map.md). Platform fonts, PDF metadata and timestamps can differ; compare data and statistics, not regenerated PDF hashes.
+These commands verify the bundled evidence and replot Figures 2–5, 7–12 and 14 from saved data or archived analytical recipes. For the two figures shown above, go to [Download the data and reproduce Figures 13 and 15](#download-the-data-and-reproduce-figures-13-and-15). The plotters write only under `outputs/`; they do not generate new echoes or rerun hardware. See [design and explanatory figures](code/design/README.md), [Jetson build, replay and measurements](code/jetson/README.md), and the [figure/table map](docs/evidence-map.md). Platform fonts, PDF metadata and timestamps can differ; compare data and statistics, not regenerated PDF hashes.
 
 ## Run the numerical models
 
@@ -71,17 +70,29 @@ The gates are short numerical consistency checks. Full runs can take several min
 - The point and fixed dense scenes each have 30 paired noise trials **per SNR and noise rule**. Figure 12 instead uses three independently generated, noise-free scenes per condition. The shipwreck statistics use 30 phase/noise realizations of one fixed model geometry, not 30 different wrecks.
 - A SHA-256 manifest covers the staged files. It does not certify licensing or reproduce timing on a different board.
 
-## Shipwreck data and Figure 13
+## Download the data and reproduce Figures 13 and 15
 
-The author-generated shipwreck STL and its derived geometry and image data are distributed in the companion release asset `shipwreck-data_v10.zip`. Extract it **at the repository root** so that the files land in `data/shipwreck/geometry/`. The large files are not tracked in regular Git. Figure 14 and Table 7 scalar metrics are in the repository and do not require this archive.
+Download these two assets from [Release v0.10.0](https://github.com/Qiuming-Ai/sectorized-swula-sonar/releases/tag/v0.10.0):
+
+- [Shipwreck data — `shipwreck-data_v10.zip` (435 MB)](https://github.com/Qiuming-Ai/sectorized-swula-sonar/releases/download/v0.10.0/shipwreck-data_v10.zip): the author-generated STL, archived arrival catalogue, and saved image arrays for Figure 13.
+- [Desktop MATLAB timing data — `desktop-timing-data_v10.zip` (102 MB)](https://github.com/Qiuming-Ai/sectorized-swula-sonar/releases/download/v0.10.0/desktop-timing-data_v10.zip): three synthetic HDF5 inputs for the historical desktop timing replay. **Figure 15 does not use this ZIP**: the Jetson measurements are already in `data/jetson/`.
+
+Save the ZIPs **outside** the checkout so the repository checksum test does not treat them as unexpected files. If both ZIPs are in the parent directory of your checkout, run these commands **from the repository root**, after installing the requirements above:
 
 ```sh
-python scripts/check_release.py --shipwreck
+python -m zipfile -e ../shipwreck-data_v10.zip .
+python -m zipfile -e ../desktop-timing-data_v10.zip .
+python scripts/check_release.py --shipwreck --desktop-timing
 python code/scenes/plot_shipwreck.py
-python code/scenes/run_final_scenes.py --suite ship --out outputs/ship_rerun
+python code/jetson/plot_paper_figure15.py
 ```
 
-The second command redraws Figure 13 from the saved image arrays. The third command reruns the numerical shipwreck experiment from the supplied arrival catalogue; it does not trace rays from the STL. See [shipwreck data notes](data/shipwreck/README.md) for file provenance and extraction details.
+The ZIPs already contain the directory structure: the extracted files land in `data/shipwreck/geometry/` and `data/desktop-timing/overlay/`. A successful checksum run reports `"status": "pass"`, with **5** shipwreck files and **3** desktop timing files verified. Use only the flag for the asset you extracted if you downloaded just one.
+
+- Figure 13 is written as PDF, PNG, and SVG under `outputs/figures/` with the stem `shipwreck_common_per_element_noise_common_scale`.
+- Figure 15 is written as PNG and SVG under `outputs/jetson/paper/` with the stem `figure15_jetson_resources`. For another run, use `--out outputs/jetson/paper_repeat01` or another new directory; the plotter does not overwrite existing figures.
+
+Neither replot needs MATLAB, a CUDA toolchain, or a Jetson. For a new numerical shipwreck run, use `python code/scenes/run_final_scenes.py --suite ship --out outputs/ship_rerun`; it starts from the supplied arrival catalogue, not the STL. See the [shipwreck data notes](data/shipwreck/README.md) and [desktop timing data notes](data/desktop-timing/README.md) for provenance and scope.
 
 ## MATLAB experiments
 
