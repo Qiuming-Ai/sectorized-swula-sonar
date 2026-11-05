@@ -1,0 +1,5 @@
+implementation_v2/core/* -text
+implementation_v3/core/* -text
+formal_collection_20261010/core/* -text
+formal_collection_20261010/telemetry.py -text
+reference_snapshot/numerical_model.py -text

@@ -1,0 +1,51 @@
+{
+  "c": 1500.0,
+  "fc": 450000.0,
+  "fs": 400000.0,
+  "bandwidth": 100000.0,
+  "duration": 0.005,
+  "n_tx": 12,
+  "n_dense": 128,
+  "n_sparse": 32,
+  "focus": [
+    -41.25,
+    -24.25,
+    -8.0,
+    8.0,
+    24.25,
+    41.25
+  ],
+  "centres": [
+    426000.0,
+    442000.0,
+    490000.0,
+    474000.0,
+    458000.0,
+    412000.0
+  ],
+  "roots": [
+    5,
+    7,
+    1,
+    3,
+    11,
+    9
+  ],
+  "code_length": 499,
+  "chip_rate": 100000.0,
+  "subband": 20000.0,
+  "element_width_lambda": 0.45,
+  "fov": [
+    -50.0,
+    50.0
+  ],
+  "range_origin": 30.0,
+  "range_span": 0.8,
+  "leading_guard_m": 1.5,
+  "angular_nodes": 201,
+  "interpolation_oversampling": 8,
+  "seed": 2026100901,
+  "energy_mode": "tx_element_unit_energy",
+  "tx_full": false,
+  "rx_frontend": true
+}

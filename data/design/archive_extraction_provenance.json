@@ -1,0 +1,21 @@
+{
+  "figure_2": {
+    "archive_file": "PSF.mat",
+    "sha256": "6753830fdb3eb33356d4857cdb14a71a16796736bef3891e9801b0e6c0e456d0",
+    "rows": 1701,
+    "source_recipe": "PSF.m",
+    "selected_matlab_rows": [
+      851,
+      791,
+      911
+    ],
+    "normalization": "Linear magnitudes; each family divided by its full-array maximum."
+  },
+  "figure_7": {
+    "archive_file": "figure7_original.pdf",
+    "sha256": "c931660f24b7df96d9934772e333161c501411fe08f7b25a6cce512f07907517",
+    "stages": 8,
+    "arrows": 7,
+    "vector_paths": 22
+  }
+}

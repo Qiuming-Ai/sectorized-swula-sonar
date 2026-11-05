@@ -1,0 +1,854 @@
+{
+  "rows": [
+    {
+      "timestamp_ns": 24519192192381,
+      "power_W": 9.266,
+      "tool_average_W": 9.266,
+      "max_temperature_C": 50.937,
+      "temperatures_C": {
+        "cv0": 48.531,
+        "cpu": 50.937,
+        "soc2": 49.375,
+        "soc0": 49.093,
+        "cv1": 49.031,
+        "gpu": 47.75,
+        "tj": 50.937,
+        "soc1": 50.187,
+        "cv2": 47.406
+      },
+      "system_RAM_used_bytes": 3658379264
+    },
+    {
+      "timestamp_ns": 24519299303227,
+      "power_W": 10.357,
+      "tool_average_W": 9.812,
+      "max_temperature_C": 51.187,
+      "temperatures_C": {
+        "cv0": 48.031,
+        "cpu": 51.187,
+        "soc2": 49.406,
+        "soc0": 49.156,
+        "cv1": 49.156,
+        "gpu": 48.218,
+        "tj": 51.125,
+        "soc1": 50.281,
+        "cv2": 47.468
+      },
+      "system_RAM_used_bytes": 3658620928
+    },
+    {
+      "timestamp_ns": 24519405459205,
+      "power_W": 12.22,
+      "tool_average_W": 10.614,
+      "max_temperature_C": 51.312,
+      "temperatures_C": {
+        "cv0": 48.031,
+        "cpu": 51.312,
+        "soc2": 49.5,
+        "soc0": 49.031,
+        "cv1": 48.875,
+        "gpu": 49.187,
+        "tj": 51.312,
+        "soc1": 50.375,
+        "cv2": 47.312
+      },
+      "system_RAM_used_bytes": 3658620928
+    },
+    {
+      "timestamp_ns": 24519511568943,
+      "power_W": 13.764,
+      "tool_average_W": 11.402,
+      "max_temperature_C": 51.437,
+      "temperatures_C": {
+        "cv0": 48.156,
+        "cpu": 51.437,
+        "soc2": 49.531,
+        "soc0": 49.031,
+        "cv1": 48.875,
+        "gpu": 49.343,
+        "tj": 51.437,
+        "soc1": 50.218,
+        "cv2": 47.468
+      },
+      "system_RAM_used_bytes": 3658620928
+    },
+    {
+      "timestamp_ns": 24519618803184,
+      "power_W": 15.003,
+      "tool_average_W": 12.122,
+      "max_temperature_C": 51.843,
+      "temperatures_C": {
+        "cv0": 48.0,
+        "cpu": 51.843,
+        "soc2": 49.593,
+        "soc0": 49.187,
+        "cv1": 49.125,
+        "gpu": 49.375,
+        "tj": 51.843,
+        "soc1": 50.281,
+        "cv2": 47.5
+      },
+      "system_RAM_used_bytes": 3658620928
+    },
+    {
+      "timestamp_ns": 24519725088638,
+      "power_W": 15.921,
+      "tool_average_W": 12.755,
+      "max_temperature_C": 52.0,
+      "temperatures_C": {
+        "cv0": 48.093,
+        "cpu": 52.0,
+        "soc2": 49.656,
+        "soc0": 49.093,
+        "cv1": 48.937,
+        "gpu": 49.5,
+        "tj": 52.0,
+        "soc1": 50.281,
+        "cv2": 47.375
+      },
+      "system_RAM_used_bytes": 3658620928
+    },
+    {
+      "timestamp_ns": 24519831491214,
+      "power_W": 16.695,
+      "tool_average_W": 13.318,
+      "max_temperature_C": 51.781,
+      "temperatures_C": {
+        "cv0": 48.187,
+        "cpu": 51.781,
+        "soc2": 49.687,
+        "soc0": 49.25,
+        "cv1": 49.062,
+        "gpu": 49.562,
+        "tj": 51.781,
+        "soc1": 50.218,
+        "cv2": 47.375
+      },
+      "system_RAM_used_bytes": 3658620928
+    },
+    {
+      "timestamp_ns": 24519937574808,
+      "power_W": 17.305,
+      "tool_average_W": 13.816,
+      "max_temperature_C": 51.812,
+      "temperatures_C": {
+        "cv0": 48.125,
+        "cpu": 51.812,
+        "soc2": 49.843,
+        "soc0": 49.25,
+        "cv1": 49.093,
+        "gpu": 49.937,
+        "tj": 51.812,
+        "soc1": 50.187,
+        "cv2": 47.562
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24520043567455,
+      "power_W": 17.609,
+      "tool_average_W": 14.238,
+      "max_temperature_C": 51.937,
+      "temperatures_C": {
+        "cv0": 48.187,
+        "cpu": 51.937,
+        "soc2": 49.843,
+        "soc0": 49.125,
+        "cv1": 49.093,
+        "gpu": 49.875,
+        "tj": 51.937,
+        "soc1": 50.375,
+        "cv2": 47.375
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24520149724938,
+      "power_W": 18.077,
+      "tool_average_W": 14.622,
+      "max_temperature_C": 51.781,
+      "temperatures_C": {
+        "cv0": 48.375,
+        "cpu": 51.781,
+        "soc2": 50.0,
+        "soc0": 49.156,
+        "cv1": 48.968,
+        "gpu": 49.937,
+        "tj": 51.781,
+        "soc1": 50.312,
+        "cv2": 47.531
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24520255997368,
+      "power_W": 18.225,
+      "tool_average_W": 14.949,
+      "max_temperature_C": 51.937,
+      "temperatures_C": {
+        "cv0": 48.187,
+        "cpu": 51.937,
+        "soc2": 49.937,
+        "soc0": 49.375,
+        "cv1": 49.218,
+        "gpu": 49.906,
+        "tj": 51.937,
+        "soc1": 50.218,
+        "cv2": 47.625
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24520363283450,
+      "power_W": 18.381,
+      "tool_average_W": 15.235,
+      "max_temperature_C": 51.906,
+      "temperatures_C": {
+        "cv0": 48.343,
+        "cpu": 51.906,
+        "soc2": 49.937,
+        "soc0": 49.25,
+        "cv1": 49.093,
+        "gpu": 49.906,
+        "tj": 51.906,
+        "soc1": 50.375,
+        "cv2": 47.531
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24520469809997,
+      "power_W": 18.685,
+      "tool_average_W": 15.501,
+      "max_temperature_C": 51.875,
+      "temperatures_C": {
+        "cv0": 48.468,
+        "cpu": 51.875,
+        "soc2": 49.968,
+        "soc0": 49.281,
+        "cv1": 49.218,
+        "gpu": 50.187,
+        "tj": 51.875,
+        "soc1": 50.281,
+        "cv2": 47.687
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24520575891191,
+      "power_W": 18.685,
+      "tool_average_W": 15.728,
+      "max_temperature_C": 52.125,
+      "temperatures_C": {
+        "cv0": 48.312,
+        "cpu": 52.125,
+        "soc2": 50.0,
+        "soc0": 49.343,
+        "cv1": 49.187,
+        "gpu": 50.187,
+        "tj": 52.125,
+        "soc1": 50.343,
+        "cv2": 47.656
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24520681910752,
+      "power_W": 18.841,
+      "tool_average_W": 15.936,
+      "max_temperature_C": 52.218,
+      "temperatures_C": {
+        "cv0": 48.281,
+        "cpu": 52.218,
+        "soc2": 50.125,
+        "soc0": 49.343,
+        "cv1": 49.375,
+        "gpu": 50.218,
+        "tj": 52.218,
+        "soc1": 50.437,
+        "cv2": 47.593
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24520788080780,
+      "power_W": 18.841,
+      "tool_average_W": 16.117,
+      "max_temperature_C": 51.906,
+      "temperatures_C": {
+        "cv0": 48.593,
+        "cpu": 51.906,
+        "soc2": 50.093,
+        "soc0": 49.406,
+        "cv1": 49.218,
+        "gpu": 50.125,
+        "tj": 51.906,
+        "soc1": 50.562,
+        "cv2": 47.656
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24520894823268,
+      "power_W": 18.996,
+      "tool_average_W": 16.287,
+      "max_temperature_C": 52.156,
+      "temperatures_C": {
+        "cv0": 48.375,
+        "cpu": 52.156,
+        "soc2": 50.125,
+        "soc0": 49.375,
+        "cv1": 49.312,
+        "gpu": 50.093,
+        "tj": 52.156,
+        "soc1": 50.437,
+        "cv2": 47.75
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24521001604989,
+      "power_W": 18.996,
+      "tool_average_W": 16.437,
+      "max_temperature_C": 52.125,
+      "temperatures_C": {
+        "cv0": 48.468,
+        "cpu": 52.125,
+        "soc2": 50.125,
+        "soc0": 49.406,
+        "cv1": 49.312,
+        "gpu": 50.187,
+        "tj": 52.125,
+        "soc1": 50.437,
+        "cv2": 47.75
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24521108042030,
+      "power_W": 18.989,
+      "tool_average_W": 16.571,
+      "max_temperature_C": 52.093,
+      "temperatures_C": {
+        "cv0": 48.593,
+        "cpu": 52.093,
+        "soc2": 50.25,
+        "soc0": 49.531,
+        "cv1": 49.25,
+        "gpu": 50.437,
+        "tj": 52.093,
+        "soc1": 50.687,
+        "cv2": 47.75
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24521214232347,
+      "power_W": 19.144,
+      "tool_average_W": 16.7,
+      "max_temperature_C": 52.187,
+      "temperatures_C": {
+        "cv0": 48.468,
+        "cpu": 52.187,
+        "soc2": 50.218,
+        "soc0": 49.562,
+        "cv1": 49.343,
+        "gpu": 50.343,
+        "tj": 52.187,
+        "soc1": 50.468,
+        "cv2": 47.781
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24521320434535,
+      "power_W": 19.144,
+      "tool_average_W": 16.816,
+      "max_temperature_C": 52.218,
+      "temperatures_C": {
+        "cv0": 48.593,
+        "cpu": 52.218,
+        "soc2": 50.281,
+        "soc0": 49.625,
+        "cv1": 49.562,
+        "gpu": 50.281,
+        "tj": 52.093,
+        "soc1": 50.531,
+        "cv2": 47.875
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24521426493841,
+      "power_W": 19.144,
+      "tool_average_W": 16.922,
+      "max_temperature_C": 52.093,
+      "temperatures_C": {
+        "cv0": 48.625,
+        "cpu": 52.093,
+        "soc2": 50.312,
+        "soc0": 49.468,
+        "cv1": 49.343,
+        "gpu": 50.187,
+        "tj": 52.093,
+        "soc1": 50.687,
+        "cv2": 47.843
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24521532570108,
+      "power_W": 19.144,
+      "tool_average_W": 17.019,
+      "max_temperature_C": 52.25,
+      "temperatures_C": {
+        "cv0": 48.531,
+        "cpu": 52.25,
+        "soc2": 50.281,
+        "soc0": 49.531,
+        "cv1": 49.343,
+        "gpu": 50.187,
+        "tj": 52.25,
+        "soc1": 50.531,
+        "cv2": 47.937
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24521638636454,
+      "power_W": 19.144,
+      "tool_average_W": 17.107,
+      "max_temperature_C": 52.437,
+      "temperatures_C": {
+        "cv0": 48.531,
+        "cpu": 52.437,
+        "soc2": 50.281,
+        "soc0": 49.656,
+        "cv1": 49.5,
+        "gpu": 50.531,
+        "tj": 52.437,
+        "soc1": 50.5,
+        "cv2": 48.0
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24521744746482,
+      "power_W": 19.144,
+      "tool_average_W": 17.189,
+      "max_temperature_C": 52.156,
+      "temperatures_C": {
+        "cv0": 48.718,
+        "cpu": 52.156,
+        "soc2": 50.312,
+        "soc0": 49.531,
+        "cv1": 49.406,
+        "gpu": 50.468,
+        "tj": 52.156,
+        "soc1": 50.656,
+        "cv2": 47.843
+      },
+      "system_RAM_used_bytes": 3659132928
+    },
+    {
+      "timestamp_ns": 24521850915519,
+      "power_W": 19.144,
+      "tool_average_W": 17.264,
+      "max_temperature_C": 52.187,
+      "temperatures_C": {
+        "cv0": 48.718,
+        "cpu": 52.187,
+        "soc2": 50.312,
+        "soc0": 49.593,
+        "cv1": 49.406,
+        "gpu": 50.406,
+        "tj": 52.187,
+        "soc1": 50.562,
+        "cv2": 48.0
+      },
+      "system_RAM_used_bytes": 3659128832
+    },
+    {
+      "timestamp_ns": 24521956888615,
+      "power_W": 19.144,
+      "tool_average_W": 17.334,
+      "max_temperature_C": 52.437,
+      "temperatures_C": {
+        "cv0": 48.656,
+        "cpu": 52.437,
+        "soc2": 50.375,
+        "soc0": 49.718,
+        "cv1": 49.625,
+        "gpu": 50.437,
+        "tj": 52.437,
+        "soc1": 50.656,
+        "cv2": 48.031
+      },
+      "system_RAM_used_bytes": 3659128832
+    },
+    {
+      "timestamp_ns": 24522062902001,
+      "power_W": 19.144,
+      "tool_average_W": 17.398,
+      "max_temperature_C": 52.468,
+      "temperatures_C": {
+        "cv0": 48.718,
+        "cpu": 52.468,
+        "soc2": 50.437,
+        "soc0": 49.562,
+        "cv1": 49.5,
+        "gpu": 50.531,
+        "tj": 52.468,
+        "soc1": 50.625,
+        "cv2": 47.875
+      },
+      "system_RAM_used_bytes": 3659128832
+    },
+    {
+      "timestamp_ns": 24522169123838,
+      "power_W": 19.144,
+      "tool_average_W": 17.458,
+      "max_temperature_C": 52.343,
+      "temperatures_C": {
+        "cv0": 48.875,
+        "cpu": 52.343,
+        "soc2": 50.437,
+        "soc0": 49.75,
+        "cv1": 49.625,
+        "gpu": 50.468,
+        "tj": 52.343,
+        "soc1": 50.687,
+        "cv2": 47.906
+      },
+      "system_RAM_used_bytes": 3659128832
+    },
+    {
+      "timestamp_ns": 24522275509776,
+      "power_W": 19.144,
+      "tool_average_W": 17.515,
+      "max_temperature_C": 52.437,
+      "temperatures_C": {
+        "cv0": 48.718,
+        "cpu": 52.437,
+        "soc2": 50.406,
+        "soc0": 49.75,
+        "cv1": 49.562,
+        "gpu": 50.468,
+        "tj": 52.437,
+        "soc1": 50.687,
+        "cv2": 48.031
+      },
+      "system_RAM_used_bytes": 3659128832
+    },
+    {
+      "timestamp_ns": 24522381556250,
+      "power_W": 19.144,
+      "tool_average_W": 17.567,
+      "max_temperature_C": 52.437,
+      "temperatures_C": {
+        "cv0": 48.843,
+        "cpu": 52.437,
+        "soc2": 50.5,
+        "soc0": 49.687,
+        "cv1": 49.625,
+        "gpu": 50.437,
+        "tj": 52.437,
+        "soc1": 50.687,
+        "cv2": 48.187
+      },
+      "system_RAM_used_bytes": 3659128832
+    },
+    {
+      "timestamp_ns": 24522487603044,
+      "power_W": 19.144,
+      "tool_average_W": 17.617,
+      "max_temperature_C": 52.375,
+      "temperatures_C": {
+        "cv0": 48.937,
+        "cpu": 52.375,
+        "soc2": 50.562,
+        "soc0": 49.781,
+        "cv1": 49.531,
+        "gpu": 50.781,
+        "tj": 52.375,
+        "soc1": 50.875,
+        "cv2": 48.062
+      },
+      "system_RAM_used_bytes": 3659128832
+    },
+    {
+      "timestamp_ns": 24522593614735,
+      "power_W": 19.144,
+      "tool_average_W": 17.663,
+      "max_temperature_C": 52.437,
+      "temperatures_C": {
+        "cv0": 48.843,
+        "cpu": 52.437,
+        "soc2": 50.437,
+        "soc0": 49.687,
+        "cv1": 49.718,
+        "gpu": 50.656,
+        "tj": 52.437,
+        "soc1": 50.718,
+        "cv2": 48.031
+      },
+      "system_RAM_used_bytes": 3659128832
+    },
+    {
+      "timestamp_ns": 24522699672186,
+      "power_W": 19.144,
+      "tool_average_W": 17.706,
+      "max_temperature_C": 52.781,
+      "temperatures_C": {
+        "cv0": 48.781,
+        "cpu": 52.437,
+        "soc2": 50.437,
+        "soc0": 49.968,
+        "cv1": 49.75,
+        "gpu": 50.687,
+        "tj": 52.781,
+        "soc1": 50.75,
+        "cv2": 48.218
+      },
+      "system_RAM_used_bytes": 3659128832
+    },
+    {
+      "timestamp_ns": 24522805697124,
+      "power_W": 19.144,
+      "tool_average_W": 17.747,
+      "max_temperature_C": 52.437,
+      "temperatures_C": {
+        "cv0": 48.843,
+        "cpu": 52.437,
+        "soc2": 50.531,
+        "soc0": 49.843,
+        "cv1": 49.625,
+        "gpu": 50.625,
+        "tj": 52.437,
+        "soc1": 50.781,
+        "cv2": 48.218
+      },
+      "system_RAM_used_bytes": 3659128832
+    },
+    {
+      "timestamp_ns": 24522911603820,
+      "power_W": 19.144,
+      "tool_average_W": 17.786,
+      "max_temperature_C": 52.5,
+      "temperatures_C": {
+        "cv0": 48.968,
+        "cpu": 52.5,
+        "soc2": 50.562,
+        "soc0": 49.843,
+        "cv1": 49.718,
+        "gpu": 50.75,
+        "tj": 52.5,
+        "soc1": 50.687,
+        "cv2": 48.093
+      },
+      "system_RAM_used_bytes": 3659079680
+    },
+    {
+      "timestamp_ns": 24523017671639,
+      "power_W": 19.144,
+      "tool_average_W": 17.823,
+      "max_temperature_C": 52.656,
+      "temperatures_C": {
+        "cv0": 48.843,
+        "cpu": 52.656,
+        "soc2": 50.531,
+        "soc0": 49.906,
+        "cv1": 49.781,
+        "gpu": 50.75,
+        "tj": 52.656,
+        "soc1": 50.812,
+        "cv2": 48.218
+      },
+      "system_RAM_used_bytes": 3659079680
+    },
+    {
+      "timestamp_ns": 24523124654422,
+      "power_W": 19.144,
+      "tool_average_W": 17.858,
+      "max_temperature_C": 52.812,
+      "temperatures_C": {
+        "cv0": 48.937,
+        "cpu": 52.812,
+        "soc2": 50.562,
+        "soc0": 49.75,
+        "cv1": 49.718,
+        "gpu": 50.812,
+        "tj": 52.812,
+        "soc1": 50.937,
+        "cv2": 48.187
+      },
+      "system_RAM_used_bytes": 3659079680
+    },
+    {
+      "timestamp_ns": 24523232389571,
+      "power_W": 19.144,
+      "tool_average_W": 17.891,
+      "max_temperature_C": 52.593,
+      "temperatures_C": {
+        "cv0": 48.875,
+        "cpu": 52.593,
+        "soc2": 50.5,
+        "soc0": 49.937,
+        "cv1": 49.875,
+        "gpu": 50.781,
+        "tj": 52.593,
+        "soc1": 50.781,
+        "cv2": 48.218
+      },
+      "system_RAM_used_bytes": 3659079680
+    },
+    {
+      "timestamp_ns": 24523338702868,
+      "power_W": 19.144,
+      "tool_average_W": 17.922,
+      "max_temperature_C": 52.593,
+      "temperatures_C": {
+        "cv0": 48.968,
+        "cpu": 52.593,
+        "soc2": 50.625,
+        "soc0": 49.937,
+        "cv1": 49.843,
+        "gpu": 50.812,
+        "tj": 52.593,
+        "soc1": 50.906,
+        "cv2": 48.25
+      },
+      "system_RAM_used_bytes": 3659079680
+    },
+    {
+      "timestamp_ns": 24523444564475,
+      "power_W": 17.765,
+      "tool_average_W": 17.918,
+      "max_temperature_C": 52.218,
+      "temperatures_C": {
+        "cv0": 49.125,
+        "cpu": 52.218,
+        "soc2": 50.5,
+        "soc0": 49.906,
+        "cv1": 49.843,
+        "gpu": 49.781,
+        "tj": 52.031,
+        "soc1": 51.0,
+        "cv2": 48.156
+      },
+      "system_RAM_used_bytes": 3596460032
+    },
+    {
+      "timestamp_ns": 24523550666472,
+      "power_W": 15.616,
+      "tool_average_W": 17.863,
+      "max_temperature_C": 51.75,
+      "temperatures_C": {
+        "cv0": 49.187,
+        "cpu": 51.75,
+        "soc2": 50.437,
+        "soc0": 49.875,
+        "cv1": 49.781,
+        "gpu": 49.375,
+        "tj": 51.75,
+        "soc1": 50.812,
+        "cv2": 48.187
+      },
+      "system_RAM_used_bytes": 3596460032
+    },
+    {
+      "timestamp_ns": 24523657293023,
+      "power_W": 13.921,
+      "tool_average_W": 17.772,
+      "max_temperature_C": 51.656,
+      "temperatures_C": {
+        "cv0": 48.906,
+        "cpu": 51.656,
+        "soc2": 50.343,
+        "soc0": 50.0,
+        "cv1": 49.906,
+        "gpu": 49.531,
+        "tj": 51.656,
+        "soc1": 50.875,
+        "cv2": 48.281
+      },
+      "system_RAM_used_bytes": 3596460032
+    },
+    {
+      "timestamp_ns": 24523763956728,
+      "power_W": 12.528,
+      "tool_average_W": 17.652,
+      "max_temperature_C": 51.625,
+      "temperatures_C": {
+        "cv0": 48.875,
+        "cpu": 51.625,
+        "soc2": 50.312,
+        "soc0": 49.812,
+        "cv1": 49.687,
+        "gpu": 49.125,
+        "tj": 51.625,
+        "soc1": 51.0,
+        "cv2": 48.187
+      },
+      "system_RAM_used_bytes": 3596460032
+    },
+    {
+      "timestamp_ns": 24523870149414,
+      "power_W": 11.446,
+      "tool_average_W": 17.515,
+      "max_temperature_C": 51.468,
+      "temperatures_C": {
+        "cv0": 48.906,
+        "cpu": 51.468,
+        "soc2": 50.281,
+        "soc0": 49.781,
+        "cv1": 49.75,
+        "gpu": 48.875,
+        "tj": 51.468,
+        "soc1": 51.187,
+        "cv2": 48.218
+      },
+      "system_RAM_used_bytes": 3596406784
+    },
+    {
+      "timestamp_ns": 24523976208242,
+      "power_W": 10.514,
+      "tool_average_W": 17.362,
+      "max_temperature_C": 51.625,
+      "temperatures_C": {
+        "cv0": 48.75,
+        "cpu": 51.625,
+        "soc2": 50.125,
+        "soc0": 49.906,
+        "cv1": 49.718,
+        "gpu": 48.656,
+        "tj": 51.625,
+        "soc1": 50.875,
+        "cv2": 48.218
+      },
+      "system_RAM_used_bytes": 3596406784
+    },
+    {
+      "timestamp_ns": 24524082940012,
+      "power_W": 9.733,
+      "tool_average_W": 17.2,
+      "max_temperature_C": 51.781,
+      "temperatures_C": {
+        "cv0": 48.75,
+        "cpu": 51.781,
+        "soc2": 50.062,
+        "soc0": 49.718,
+        "cv1": 49.562,
+        "gpu": 48.531,
+        "tj": 51.781,
+        "soc1": 50.968,
+        "cv2": 48.125
+      },
+      "system_RAM_used_bytes": 3596406784
+    }
+  ],
+  "reader_errors": [],
+  "requested_interval_ms": 100,
+  "clock": "CLOCK_MONOTONIC arrival timestamps",
+  "power_scope": "module VDD_IN current; tool average retained only as auxiliary"
+}

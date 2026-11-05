@@ -1,0 +1,4 @@
+﻿method,scan_angle_deg,coarse_candidates_including_boundaries,refined_off_mainlobe_samples,protected_halfwidth_deg,maximum_off_mainlobe_response_db,off_peak_target_angle_deg,desired_local_peak_angle_deg,desired_local_peak_amplitude,frequency_bins,characteristic_query_rate,coarse_target_step_deg,refined_step_deg,audit_scan_directions,definition
+dense,50,113,9266,3.0,-43.284086458913514,44.11,49.99,0.8153515976172284,8192,256,0.25,0.01,105,coarse-to-fine maximum outside+/-3deg protected desired lobe; not first-null PSLR
+cdm,-33,77,7005,3.0,-22.98848750188941,-2.6,-32.92,0.6089764849559715,8192,256,0.25,0.01,105,coarse-to-fine maximum outside+/-3deg protected desired lobe; not first-null PSLR
+fdm,-16,91,7991,3.0,-28.77223641717334,10.35,-15.93,0.6137431824220352,8192,256,0.25,0.01,105,coarse-to-fine maximum outside+/-3deg protected desired lobe; not first-null PSLR

@@ -1,0 +1,59 @@
+{
+  "protocol_id": "RINENG_UNIFORM_PIPELINE_20261010_v1",
+  "date": "2026-10-10",
+  "immutable_previous_results": true,
+  "intent": "Complete user-approved numerical corrections; outcomes need not favour the proposed methods",
+  "author_validation": "pending; no manuscript or rebuttal edits",
+  "hardware": {"Jetson": "R1-29/R1-30/R2-15 deferred by user; no substitute measurement"},
+  "waveforms": {
+    "carrier_hz": 450000, "processed_fs_hz": 400000, "nominal_RF_hz": [400000,500000],
+    "record_samples": 2000, "record_duration_ms": 5.0,
+    "Dense": "100kHz symmetric-time Hamming-LFM",
+    "FDM": "six 20kHz symmetric-time Hamming-LFM; one band per simultaneous sector; no TDM/OFDM",
+    "FDM_RF_centres_hz": [426000,442000,490000,474000,458000,412000],
+    "CDM": "frequency-domain ZC -> IFFT -> 4:1 Kaiser-5 polyphase interpolation -> 4 zero padding samples; no extra temporal taper",
+    "ZC_length": 499, "ZC_roots": [5,7,1,3,11,9], "native_rate_hz": 100000,
+    "historical_match": "same generation mechanism as current SonarSim generator, not a claim of exact historical-run replication; final paper length 499 is explicit"
+  },
+  "common_filter": {
+    "taps": 129, "design": "firwin, Kaiser beta=8.6, cutoff=50kHz at fs400kHz",
+    "Tx_primary": "identical FIR for all methods; full convolution then compensate 64 samples and take common 2000 sample centre crop; renormalize actual final Tx energy",
+    "Tx_sensitivity": "all methods retain full 2128 sample convolution, same energy normalization; full support not called 5ms",
+    "Rx": "identical FIR on guarded continuous record, compensate known 64 sample delay; no target-tail truncation",
+    "matched_filter": "unit-energy actual Tx pulse through Rx frontend, not unfiltered analytic prototype",
+    "noise_injection": "before common Rx frontend; same processed fs and independent per-receiver CN samples",
+    "interpretation": "numerical common digital bandlimiting, not measured acoustic transducer response or exactly bandlimited waveform"
+  },
+  "energy": "sum over physical transmit elements of squared magnitude of final simultaneous TTD-weighted excitation, including cross terms, is 1; same fs means sample-sum and integral conventions differ by one common dt",
+  "geometry": {
+    "sound_speed_m_s": 1500, "Dense_rx": 128, "Sparse_rx": 32, "sector_tx": 12,
+    "Dense_spacing_lambda": 0.5, "Sparse_spacing_lambda": 2.0,
+    "FOV_deg": [-50,50], "sector_count": 6,
+    "steering_deg": [-41.25,-24.25,-8,8,24.25,41.25],
+    "main_point_origin_m": 30, "nearfield_check_m": [5,15,30,60],
+    "nearfield_check_deg": [0,40], "ship_geometry": "original common arrival coordinates unchanged"
+  },
+  "metrics": {
+    "domain": "all NMSE/correlation/leakage/CNR use one declared physical range ROI and +/-50deg; never display dB/gamma/TVG values",
+    "guard": "strict coordinates +/-0.06m and +/-1deg, common to methods",
+    "guard_sensitivity": {"range_m": [0.03,0.06,0.12], "angle_deg": [0.5,1,2]},
+    "fixed_background": "47<=abs(angle)<=50 within fixed ROI, verify no truth collision; do not select after outcomes",
+    "truth_reference": "scatterer-support envelope magnitude; not full acoustic ground truth",
+    "Dense_reference": "similarity to finite-resolution noise-free Dense reconstruction, distinct from truth error"
+  },
+  "axes": {
+    "scatter_count": [1,10,50,200,500,1000], "range_layers": [1,5,10,20,50],
+    "delay_extent_m": [0.15,0.3,0.6,1.2,2.4], "dynamic_range_db": [0,10,20,40],
+    "scene_repetitions": 3, "ship_phase_repetitions": 3,
+    "stress": {"scatter_count":1000,"range_layers":50,"dynamic_range_db":40},
+    "velocity_m_s": [-10,-5,-2,-1,0,1,2,5,10],
+    "Doppler": "explicit continuous-time query with 8x/16x/32x interpolation convergence; carrier shift included; full-delay peak and fixed local diagnostic both retained",
+    "range_pair_mm": [5,10,20,40,80,120], "pair_phase_rad": 0.7,
+    "noise_SNR_db": [-35,-25,-15,-5], "noise_calibration_blocks":60, "noise_test_blocks":30,
+    "noise_rules": ["common_per_element_noise_primary","equal_raw_channel_SNR_supplement"],
+    "threshold": "independent 60 calibration block maxima 95% quantile, higher; no truth-centred candidate search",
+    "OMP": "32 random Rx; same actual common waveform/frontend for paired DAS vs OMP; 41 fixed frequency bins; training2/test5; three paired noise seeds; no supplied K; coarse 0.01m/0.5deg, fine0.005m/0.25deg; discrepancy1.3sigma sqrt(M), cap32; training-derived threshold; CPU scope only"
+  },
+  "reuse_policy": "Old receipts unchanged. New numerical data recorded under new protocol. Pure spatial candidate-family audit rerun for traceability, not assumed affected by scalar energy normalization.",
+  "approval": "User approved executing this correction scope in the chat; manuscript wording remains for author approval"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "selection_date": "2026-10-10",
+  "purpose": "method-specific engineering implementations on one Jetson; not equal-accuracy acceleration",
+  "adopted_by_user": true,
+  "equivalence_claimed": false,
+  "historical_v2_v3_results_preserved": true,
+  "supersedes_for_new_measurements_only": "JETSON_TEST_PLAN_zh.md v1",
+  "methods": {
+    "dense": {"name": "Dense full-band LFM", "engine": "sonar_v2", "cached": true, "channels": 128, "waveforms": 1, "fft_samples": 16384, "interpolated_ifft_samples": 131072},
+    "cdm": {"name": "SW-ULA CDM-ZC", "engine": "sonar_v2", "cached": true, "channels": 32, "waveforms": 6, "fft_samples": 16384, "interpolated_ifft_samples": 131072},
+    "fdm": {"name": "SW-ULA packed-FDM LFM", "engine": "sonar_v3", "candidate": "d4_sinc16", "cached": true, "channels": 32, "waveforms": 6, "fft_samples": 16384, "decimation": 4, "low_samples": 4096, "fs_low_hz": 100000, "anti_alias_fir_taps": 129, "anti_alias_cutoff_hz": 30000, "kaiser_beta": 8.6, "interpolation_taps": 16, "lut_phase_intervals": 1024}
+  },
+  "common": {"raw_fs_hz": 400000, "raw_samples_per_channel": 8192, "raw_dtype": "complex64", "fft_dtype": "complex64 CUFFT_C2C", "geometry_dtype": "float64", "common_receive_fir_taps": 129, "common_receive_fir_applied_once": true, "output_dtype": "complex64", "output_rows": 321, "output_columns": 401, "range_min_m": 30.0, "range_max_m": 30.8, "range_step_m": 0.0025, "angle_min_deg": -50.0, "angle_max_deg": 50.0, "angle_step_deg": 0.25, "streams": 8, "frame_result_cache": false, "output_gain_or_phase_fit": false},
+  "input_scope": "common 18-target scene, waveform-energy and per-element noise definitions; raw arrays are method-specific, not byte-identical",
+  "implementation_validation": {"cases_per_method": 25, "reference": "own independent complex128 CPU realization", "relative_l2_max": 0.0001, "magnitude_correlation_min": 0.999, "zero_maxabs": 0.0000001, "fit_gain_phase": false, "constant_correlation": "N/A only if the reference magnitude is constant; a constant candidate against varying reference fails", "old_fullrate_fdm_equivalence_required": false},
+  "latency": {"sessions": 3, "method_orders": [["dense", "cdm", "fdm"], ["cdm", "fdm", "dense"], ["fdm", "dense", "cdm"]], "warmup_blocks_per_process": 50, "measured_blocks_per_process": 200, "measured_blocks_per_method": 600, "noise_fixture_ids": 20, "clock": "CLOCK_MONOTONIC", "primary_interval": "synchronous Engine.process: host-ready raw input through complex output D2H and GPU completion", "initialization_and_finalization": "separate, not per-frame", "lightweight_validation": "separate endpoint after reconstruction, stored for every block", "outlier_trimming": false, "summary": ["N", "failures", "mean", "sample_SD", "median", "type7_P95", "max", "session_means"]},
+  "memory": {"primary": "explicit CUDA allocation high-water including shared cuFFT workspace", "auxiliary": ["each plan workspace requirement", "host RSS after context/setup", "host RSS live engine", "host VmHWM", "100-ms sampled system RAM maximum"], "sum_host_device_system": false},
+  "power": {"sessions": 3, "method_orders": [["dense", "cdm", "fdm"], ["cdm", "fdm", "dense"], ["fdm", "dense", "cdm"]], "rail": "VDD_IN current_mW", "scope": "Jetson module input; not carrier or wall-plug system power", "idle_seconds": 30, "warmup_seconds": 60, "measurement_seconds": 120, "telemetry_interval_ms": 100, "maximum_sample_gap_ms": 500, "integration": "actual CLOCK_MONOTONIC timestamps, bracketed boundary interpolation, trapezoidal", "primary_idle_subtraction": false, "reported": ["average_module_power_W", "module_energy_J", "completed_blocks", "energy_J_per_block", "actual_window_seconds"], "temperature_stop_C": 80, "missing_or_unbracketed_data": "invalid window; no imputation or extrapolation"},
+  "environment": {"requested_mode": "MAXN", "driver_version": "540.4.0", "cuda_version": "12.6", "change_power_or_clocks": false, "install_system_software": false},
+  "safety": {"completed_call_wall_limit_seconds": 30, "whole_verify_latency_memory_process_limit_seconds": 120, "whole_power_process_limit_seconds": 300, "blocked_cuda_duration": "not individually observed; whole-process timeout is a separate safety fallback"},
+  "figure14": "replace old module-only chart with full-reconstruction timing distribution; do not sum overlapping module means into wall time",
+  "publication": {"replace_old_runtime_numbers": true, "keep_original_imaging_results_as_separate_numerical_experiments": true, "retain_general_resource_tradeoff_only_if_supported_by_new_data": true, "claim_acoustic_validation": false, "claim_acoustic_frame_rate": false, "claim_platform_independent_speedup": false}
+}

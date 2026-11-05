@@ -1,0 +1,201 @@
+{
+  "status": "read_only_source_and_vector_statistics_verified",
+  "original_pdf": "figure14_ship_statistics.pdf (pre-bar manuscript version)",
+  "original_pdf_sha256": "6b509c45a463275a8b44b0edb6f8053c6cc38c341faa26157b3f003cdef69e8f",
+  "original_size_pt": [
+    506.7159729003906,
+    176.83811950683594
+  ],
+  "original_vector_paths": 85,
+  "original_bitmap_images": 0,
+  "source_summary": "data/shipwreck/summary_mean_ci.csv",
+  "summary_sha256": "538fb21573a0d9fa5810d7eef246a36b3fc8511dec6d3bf5843c1d03ebceb56e",
+  "source_trials": "data/shipwreck/all_trials.csv",
+  "trials_sha256": "4d165ce219c1ab75307befdf0c8a4a7558ce9a3cf53fda27ecdfe3eb016c393e",
+  "source_plot_script": "code/scenes/plot_submission_figures.py (historical original)",
+  "source_statistics_script": "code/scenes/run_final_scenes.py (historical original)",
+  "selection": {
+    "noise_normalization": "common_per_element_noise",
+    "nominal_snr_db": 10,
+    "replications_per_method": 30
+  },
+  "confidence_intervals": "two-sided Student t, df=29; half-width=t.ppf(0.975,29)*sample_SD/sqrt(30)",
+  "method_order": [
+    "dense",
+    "cdm",
+    "fdm"
+  ],
+  "metric_order": [
+    "dense_magnitude_correlation",
+    "angle_profile_correlation_to_clean_Dense",
+    "support_leakage"
+  ],
+  "statistics": [
+    {
+      "method": "dense",
+      "metric": "dense_magnitude_correlation",
+      "n": 30,
+      "mean": 0.9976613873597764,
+      "ci95_halfwidth": 4.930047783510041e-06,
+      "mean_difference_from_raw_trials": 0.0,
+      "ci_difference_from_raw_trials": 0.0
+    },
+    {
+      "method": "dense",
+      "metric": "angle_profile_correlation_to_clean_Dense",
+      "n": 30,
+      "mean": 0.9979741051941702,
+      "ci95_halfwidth": 2.629131164963417e-05,
+      "mean_difference_from_raw_trials": 0.0,
+      "ci_difference_from_raw_trials": 0.0
+    },
+    {
+      "method": "dense",
+      "metric": "support_leakage",
+      "n": 30,
+      "mean": 0.004849564766803581,
+      "ci95_halfwidth": 1.0781358052827464e-05,
+      "mean_difference_from_raw_trials": 0.0,
+      "ci_difference_from_raw_trials": 0.0
+    },
+    {
+      "method": "cdm",
+      "metric": "dense_magnitude_correlation",
+      "n": 30,
+      "mean": 0.5420396527359241,
+      "ci95_halfwidth": 0.0003363458098497693,
+      "mean_difference_from_raw_trials": 0.0,
+      "ci_difference_from_raw_trials": 0.0
+    },
+    {
+      "method": "cdm",
+      "metric": "angle_profile_correlation_to_clean_Dense",
+      "n": 30,
+      "mean": -0.2732808804864556,
+      "ci95_halfwidth": 0.009093483559694335,
+      "mean_difference_from_raw_trials": 0.0,
+      "ci_difference_from_raw_trials": 0.0
+    },
+    {
+      "method": "cdm",
+      "metric": "support_leakage",
+      "n": 30,
+      "mean": 0.3631808654670107,
+      "ci95_halfwidth": 0.0006028621033025971,
+      "mean_difference_from_raw_trials": 0.0,
+      "ci_difference_from_raw_trials": 0.0
+    },
+    {
+      "method": "fdm",
+      "metric": "dense_magnitude_correlation",
+      "n": 30,
+      "mean": 0.7282087941283685,
+      "ci95_halfwidth": 0.0008607274338353891,
+      "mean_difference_from_raw_trials": 0.0,
+      "ci_difference_from_raw_trials": 0.0
+    },
+    {
+      "method": "fdm",
+      "metric": "angle_profile_correlation_to_clean_Dense",
+      "n": 30,
+      "mean": 0.860624751830025,
+      "ci95_halfwidth": 0.0028926181491529773,
+      "mean_difference_from_raw_trials": 0.0,
+      "ci_difference_from_raw_trials": 0.0
+    },
+    {
+      "method": "fdm",
+      "metric": "support_leakage",
+      "n": 30,
+      "mean": 0.00479486509591632,
+      "ci95_halfwidth": 3.689843116588959e-05,
+      "mean_difference_from_raw_trials": 0.0,
+      "ci_difference_from_raw_trials": 0.0
+    }
+  ],
+  "original_vector_checks": [
+    {
+      "method": "dense",
+      "metric": "dense_magnitude_correlation",
+      "mean_difference": 1.2413586270021426e-08,
+      "ci_halfwidth_difference": 1.1372205403023656e-08
+    },
+    {
+      "method": "cdm",
+      "metric": "dense_magnitude_correlation",
+      "mean_difference": 7.215076314182056e-10,
+      "ci_halfwidth_difference": 1.0635428693544363e-08
+    },
+    {
+      "method": "fdm",
+      "metric": "dense_magnitude_correlation",
+      "mean_difference": 1.8349483710267123e-08,
+      "ci_halfwidth_difference": 5.277985353564947e-09
+    },
+    {
+      "method": "dense",
+      "metric": "angle_profile_correlation_to_clean_Dense",
+      "mean_difference": 2.2312896641452085e-08,
+      "ci_halfwidth_difference": 7.976414778459659e-09
+    },
+    {
+      "method": "cdm",
+      "metric": "angle_profile_correlation_to_clean_Dense",
+      "mean_difference": 1.226336484583257e-07,
+      "ci_halfwidth_difference": 3.651159665926662e-08
+    },
+    {
+      "method": "fdm",
+      "metric": "angle_profile_correlation_to_clean_Dense",
+      "mean_difference": 7.453535344481566e-09,
+      "ci_halfwidth_difference": 1.706942965142358e-08
+    },
+    {
+      "method": "dense",
+      "metric": "support_leakage",
+      "mean_difference": 5.252813569528447e-09,
+      "ci_halfwidth_difference": 6.054436690721622e-09
+    },
+    {
+      "method": "cdm",
+      "metric": "support_leakage",
+      "mean_difference": 2.1324173260506285e-08,
+      "ci_halfwidth_difference": 2.203792952488494e-09
+    },
+    {
+      "method": "fdm",
+      "metric": "support_leakage",
+      "mean_difference": 1.6235684074071555e-08,
+      "ci_halfwidth_difference": 1.3459280113514748e-08
+    }
+  ],
+  "maximum_vector_mean_difference": 1.226336484583257e-07,
+  "maximum_vector_ci_difference": 3.651159665926662e-08,
+  "old_A16_excluded": true,
+  "design": {
+    "canvas_width_mm": 85,
+    "canvas_height_mm_target": 90,
+    "rows": 3,
+    "font_pt": 9,
+    "font": "Times New Roman",
+    "marker_order": [
+      "o",
+      "s",
+      "^"
+    ],
+    "color_order": [
+      "#0072B2",
+      "#D55E00",
+      "#009E73"
+    ],
+    "panel_order": [
+      "(a) 2-D Dense correlation",
+      "(b) Angular-profile correlation",
+      "(c) Leakage outside the shared physical guard"
+    ],
+    "source_data_change": false,
+    "error_bar_definition_change": false,
+    "additional_methods_or_metrics": false
+  },
+  "integrity": "Only saved summary statistics and saved trial CSV are read; no reconstruction or experiment is rerun."
+}

@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "reasons": [],
+  "t0_ns": 26724278463520,
+  "t1_ns": 26844291658210,
+  "completed_blocks": 7279,
+  "idle_subtracted": false,
+  "scope": "Jetson module VDD_IN, not carrier/system wall input",
+  "energy_J": 2323.0259983230385,
+  "average_module_power_W": 19.356421636167,
+  "energy_J_per_block": 0.3191408158157767,
+  "actual_window_seconds": 120.01319469,
+  "valid_samples": 1132,
+  "maximum_interval_ms": 108.306335
+}

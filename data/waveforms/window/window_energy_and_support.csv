@@ -1,0 +1,6 @@
+﻿method,taper,actual_Tx_total_sample_energy,stored_Tx_samples,full_before_crop_samples,retained_pre_normalization_energy_fraction,Rx_matched_template
+dense,hamming,1.0000000000000002,2000,2128,0.9999804154625688,unit-energy actual cropped Tx through same compensated continuous Rx FIR
+dense,rectangular,1.0000000000000002,2000,2128,0.9987469263277102,unit-energy actual cropped Tx through same compensated continuous Rx FIR
+cdm,rectangular,1.0000000000000002,2000,2128,0.9998313893506854,unit-energy actual cropped Tx through same compensated continuous Rx FIR
+fdm,hamming,1.0000000000000002,2000,2128,0.9999935126734139,unit-energy actual cropped Tx through same compensated continuous Rx FIR
+fdm,rectangular,1.0000000000000004,2000,2128,0.9995902959892495,unit-energy actual cropped Tx through same compensated continuous Rx FIR

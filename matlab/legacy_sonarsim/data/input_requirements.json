@@ -1,0 +1,65 @@
+{
+  "desktop_timing_archive": "desktop-timing-data_v10.zip",
+  "overlay_directory_relative_to_repo": "data/desktop-timing/overlay",
+  "sample_storage": "HDF5 float32 real/imag; on-disk channel x sample, MATLAB sample x channel",
+  "ping_count_per_file": 100,
+  "inputs": [
+    {
+      "method": "Dense",
+      "original_source": "SonarSim/BaselineData_20251121_150913.h5",
+      "bytes": 73110959,
+      "sha256": "447dcafcc0c760834d5e2936b98a1b4442b14147d2c5742a03aa2c96e3a01b14",
+      "channels": 128,
+      "samples": 712,
+      "matched_filter_length": 626,
+      "stored_snr_dB": -20,
+      "stored_velocity_m_per_s": 0.2
+    },
+    {
+      "method": "CDM",
+      "original_source": "SonarSim/CDMData_20251125_160029.h5",
+      "bytes": 18567483,
+      "sha256": "547393aa52192fba8b9e44d3b579ada16111fbbf4c1936d6166bd59c909dcd31",
+      "channels": 32,
+      "samples": 717,
+      "matched_filter_length": 629,
+      "stored_snr_dB": 10,
+      "stored_velocity_m_per_s": 0.0
+    },
+    {
+      "method": "FDM",
+      "original_source": "SonarSim/FDMData_20251126_112556.h5",
+      "bytes": 18482751,
+      "sha256": "8d8876b0109370e793b85abfad45c54e37952f22021f17e1667fb085971dec86",
+      "channels": 32,
+      "samples": 713,
+      "matched_filter_length": 625,
+      "second_fir_length": 85,
+      "second_decimation": 3,
+      "stored_snr_dB": -10,
+      "stored_velocity_m_per_s": 0.2
+    }
+  ],
+  "recorded_timing_csv": {
+    "original_source": "SonarSim/TimingData_20251126_114034.csv",
+    "sha256": "acd5ae4e012ab2ea7034822a36d0eb78fc541a0461229d5dd3ee9491de4950ac",
+    "rows": 100,
+    "stored_time_unit": "s",
+    "mean_ms_dense_cdm_fdm": [265.608743, 60.105308, 31.266306]
+  },
+  "legacy_exp8_meshes": [
+    {
+      "original_source": "SonarSim/Models/ship.stl",
+      "lookup_order": ["data/shipwreck/geometry/ship.stl", "matlab/legacy_sonarsim/Models/ship.stl"],
+      "bytes": 8000084,
+      "sha256": "3ed18b89cc1bf839f63a4d5dd03881cf3caac342c9440b0e1bc4c5bb7750431d"
+    },
+    {
+      "original_source": "SonarSim/Models/merged_model.stl",
+      "lookup_order": ["matlab/legacy_sonarsim/Models/merged_model.stl"],
+      "bytes": 14340884,
+      "sha256": "d06fe0c388225258fc32d62054c9b290cd18228683c9846ecbdc1c28b2a688f9",
+      "distribution": "not included; use only with permission"
+    }
+  ]
+}

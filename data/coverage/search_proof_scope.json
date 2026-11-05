@@ -1,0 +1,41 @@
+{
+  "joint_test": true,
+  "candidate_counts": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "steering_grid_deg": 0.05,
+  "search_target_grid_deg": 0.25,
+  "search_frequency_grid_hz": [
+    400000,
+    405000,
+    410000,
+    415000,
+    420000,
+    425000,
+    430000,
+    435000,
+    440000,
+    445000,
+    450000,
+    455000,
+    460000,
+    465000,
+    470000,
+    475000,
+    480000,
+    485000,
+    490000,
+    495000,
+    500000
+  ],
+  "final_target_grid_deg": 0.01,
+  "final_frequency_spacing_hz": 1000,
+  "factorization": "for the fixed equal-width partition, per-sector Tx constraints depend on its own steering candidate, so exhaustive per-sector feasibility is exhaustive within this finite design family",
+  "threshold_reuse": "reuse every candidate constraint score, then search all candidates under each threshold, not just one coverage-best angle",
+  "normalization_caveat": "search peak sampled locally at 0.01deg around steering; final uses full dense FOV maximum; final feasibility is reported separately, not assumed",
+  "continuous_minimum": "not proven; finer steering candidates or nonuniform boundaries not covered"
+}

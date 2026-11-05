@@ -1,0 +1,14 @@
+/formal_collection_20261010/build/
+/formal_collection_20261010/results/
+/formal_collection_20261010/FROZEN_FORMAL_FINAL.json
+/formal_collection_20261010/IMPLEMENTATION_RECEIPT_FORMAL.json
+/formal_collection_20261010/permit.txt
+/implementation_v2/python/generated/
+/implementation_v3/python/generated/
+__pycache__/
+*.pyc
+*.o
+*.a
+*.so
+*.exe
+.env

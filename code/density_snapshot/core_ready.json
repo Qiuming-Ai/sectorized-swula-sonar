@@ -1,0 +1,5 @@
+{
+  "gate": "passed",
+  "model_sha256": "3e580c095b2a1f2366c7b6f252a32d23b9a6aa1cdf30c994e272ed0fb97d8305",
+  "scope": "Historical model hash recorded in the original density-run receipt; not a newly executed density gate."
+}

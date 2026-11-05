@@ -1,0 +1,10 @@
+/build_mex/
+/Models/
+/PaperA_exp7_0.mat
+/PaperA_exp7_0_replay.mat
+/TimingData_replay*.csv
+/BaselineData_*.h5
+/CDMData_*.h5
+/FDMData_*.h5
+*.mex*
+*.asv

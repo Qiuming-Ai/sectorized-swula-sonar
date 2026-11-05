@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+build/
+.pytest_cache/
+*.egg-info/
+*.stl
+*.mex*
+/data/shipwreck/geometry/
+/data/desktop-timing/overlay/

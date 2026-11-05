@@ -1,0 +1,41 @@
+method,buffer,shape,dtype,bytes,lifetime,scope
+dense,rawDevice,128x8192,complex64,8388608,persistent engine,explicit CUDA
+dense,frontendDevice,128x16384,complex64,16777216,persistent engine,explicit CUDA
+dense,fineDevice,128x131072,complex64,134217728,persistent engine,explicit CUDA
+dense,outputDevice,321x401,complex64,1029768,persistent engine,explicit CUDA
+dense,frontendTransfer,16384,complex64,131072,persistent engine,explicit CUDA
+dense,templateTransfer,1x16384,complex64,131072,persistent engine,explicit CUDA
+dense,weightCarrierDevice,401x128,complex64,410624,persistent engine,explicit CUDA
+dense,rangeCarrierDevice,321,complex64,2568,persistent engine,explicit CUDA
+dense,rangeIndexDevice,321,float64,2568,persistent engine,explicit CUDA
+dense,delayIndexDevice,401x128,float64,410624,persistent engine,explicit CUDA
+dense,angleIndicesDevice,401,int32,1604,persistent engine,explicit CUDA
+dense,shared cuFFT workspace,134217728,byte,134217728,persistent engine,explicit CUDA
+cdm,rawDevice,32x8192,complex64,2097152,persistent engine,explicit CUDA
+cdm,frontendDevice,32x16384,complex64,4194304,persistent engine,explicit CUDA
+cdm,fineDevice,32x131072,complex64,33554432,persistent engine,explicit CUDA
+cdm,outputDevice,321x401,complex64,1029768,persistent engine,explicit CUDA
+cdm,frontendTransfer,16384,complex64,131072,persistent engine,explicit CUDA
+cdm,templateTransfer,6x16384,complex64,786432,persistent engine,explicit CUDA
+cdm,weightCarrierDevice,401x32,complex64,102656,persistent engine,explicit CUDA
+cdm,rangeCarrierDevice,321,complex64,2568,persistent engine,explicit CUDA
+cdm,rangeIndexDevice,321,float64,2568,persistent engine,explicit CUDA
+cdm,delayIndexDevice,401x32,float64,102656,persistent engine,explicit CUDA
+cdm,angleIndicesDevice,401,int32,1604,persistent engine,explicit CUDA
+cdm,shared cuFFT workspace,33554432,byte,33554432,persistent engine,explicit CUDA
+fdm,rawDevice,32x8192,complex64,2097152,persistent engine,explicit CUDA
+fdm,frontendDevice,32x16384,complex64,4194304,persistent engine,explicit CUDA
+fdm,matchedDevice,32x16384,complex64,4194304,persistent engine,explicit CUDA
+fdm,lowDevice,32x4096,complex64,1048576,persistent engine,explicit CUDA
+fdm,outputDevice,321x401,complex64,1029768,persistent engine,explicit CUDA
+fdm,frontendTransfer,16384,complex64,131072,persistent engine,explicit CUDA
+fdm,templateTransfer,6x16384,complex64,786432,persistent engine,explicit CUDA
+fdm,filterTransfer,16384,complex64,131072,persistent engine,explicit CUDA
+fdm,mixingTransfer,6x16384,complex64,786432,persistent engine,explicit CUDA
+fdm,weightCarrierDevice,401x32,complex64,102656,persistent engine,explicit CUDA
+fdm,rangeCarrierDevice,6x321,complex64,15408,persistent engine,explicit CUDA
+fdm,rangeIndexDevice,321,float64,2568,persistent engine,explicit CUDA
+fdm,delayIndexDevice,401x32,float64,102656,persistent engine,explicit CUDA
+fdm,angleIndicesDevice,401,int32,1604,persistent engine,explicit CUDA
+fdm,interpolationDevice,1025x16,float32,65600,persistent engine,explicit CUDA
+fdm,shared cuFFT workspace,256,byte,256,persistent engine,explicit CUDA

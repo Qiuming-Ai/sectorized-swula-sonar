@@ -1,0 +1,1060 @@
+{
+  "files": [
+    {
+      "path": "formal_collection_20261010/PRE_MEASUREMENT_AMENDMENT.md",
+      "bytes": 875,
+      "sha256": "bc7ece7abfaa705ebc87df453b0cca7a3efee77ad20620f0caf775b415712493"
+    },
+    {
+      "path": "formal_collection_20261010/PROTOCOL_FORMAL_zh.md",
+      "bytes": 9582,
+      "sha256": "bb45b1f5b119b30e2dea1422d6afa9686fe204071563e2af9de88d262be7ef10"
+    },
+    {
+      "path": "formal_collection_20261010/capability_check.py",
+      "bytes": 2128,
+      "sha256": "d9a8f7b00e59c5d5e6bf231b53f122366c009ceb763b355052d2d7cb74caefbd"
+    },
+    {
+      "path": "formal_collection_20261010/collect.py",
+      "bytes": 11930,
+      "sha256": "73eea1a65c160bd98323f2aff3ced79c24c32793d6519706e54ab086875b2fc7"
+    },
+    {
+      "path": "formal_collection_20261010/contract.json",
+      "bytes": 4707,
+      "sha256": "a469e0ff81b76d01d931834ea7416e015654e8da25f4a60099e4e5dd67ff8dee"
+    },
+    {
+      "path": "formal_collection_20261010/core/CMakeLists.txt",
+      "bytes": 1133,
+      "sha256": "803943f2a6be0fdff87b4a8815ba5cf1e63b3696fde6b03699738e7b4215b798"
+    },
+    {
+      "path": "formal_collection_20261010/core/main.cpp",
+      "bytes": 33653,
+      "sha256": "d15eeed7a7a4a5238194a4576d268c6afd1acb8f62a74c2e0a10e27c6ba331e4"
+    },
+    {
+      "path": "formal_collection_20261010/export_specs.py",
+      "bytes": 3828,
+      "sha256": "d52b82309b321df462f317f918545f0784b2d61a6a94a0ee9aa525831175b553"
+    },
+    {
+      "path": "formal_collection_20261010/telemetry.py",
+      "bytes": 6813,
+      "sha256": "5e58755fe8a29f7873748d533c8bb6df02b1f17df89344dcd2cfddfcd8c61adf"
+    },
+    {
+      "path": "implementation_v2/CORRECTNESS_GATE_RECEIPT.json",
+      "bytes": 186922,
+      "sha256": "1601661cf1f00dbcabe7a1f58094fcf8a80c5856b1eb09d235d5b20c31c2c1b3"
+    },
+    {
+      "path": "implementation_v2/core/engine.cu",
+      "bytes": 28458,
+      "sha256": "589866528cd1b2b369ac28b4d883b843716d0742f740bbf914ce5509b0738492"
+    },
+    {
+      "path": "implementation_v2/core/engine.h",
+      "bytes": 2890,
+      "sha256": "cc37bca9f2abc7bd9a537d9f48d930dc8e7224d805245c0b41255407a08e7a54"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/boundary_points/raw.bin",
+      "bytes": 2097152,
+      "sha256": "30efd622231d9cd134cd6b042aaf1120346fdf66974a8ec9ff51e11ff34bc5f4"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/boundary_points/reference.bin",
+      "bytes": 2059536,
+      "sha256": "cd3ddd9a5912ed4b72311f53518f68bb42fbcd9bd12229337531b0b45400c1ed"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/complex_impulse/raw.bin",
+      "bytes": 2097152,
+      "sha256": "f758ec37d65f40463b86d63e2327b216a76025da77e83c4f8b2014330ed596e3"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/complex_impulse/reference.bin",
+      "bytes": 2059536,
+      "sha256": "29a1d227f967e0819b32f89dd3fecd8581a290f983c3e74e661ed8547ac66047"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise00/raw.bin",
+      "bytes": 2097152,
+      "sha256": "3f1cf62edade9c52a8ac3721145e2493e7f7c0dccabebe4ab32d6d7242fd156a"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise00/reference.bin",
+      "bytes": 2059536,
+      "sha256": "42f4da2c40e25ef308eb64d62e83ac227d36c049b2343009b017d2eb08ab5f4f"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise01/raw.bin",
+      "bytes": 2097152,
+      "sha256": "a9e963c9f862c055a601a587e829d9be18329f97a1862e660485af2b43ed7103"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise01/reference.bin",
+      "bytes": 2059536,
+      "sha256": "218ef39300643fbd8bc607219ce7dc775cdf803c37b47de219a4498f41a90c93"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise02/raw.bin",
+      "bytes": 2097152,
+      "sha256": "21dc7a75f5513ae232ae39d7d26aa2d7109612f5d6cfa038ce4a06fdda147bc4"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise02/reference.bin",
+      "bytes": 2059536,
+      "sha256": "a525191b859ae2a0e0d3b91db33bada641163666b7dd83a0c9a1832068b09d29"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise03/raw.bin",
+      "bytes": 2097152,
+      "sha256": "876caf6e407e0961bb45fc64835adcaa90076b4be56a07095e6bbefef1b093a9"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise03/reference.bin",
+      "bytes": 2059536,
+      "sha256": "8c42e30785c0e4a0979358e855498eba8ed10db7607600246b95628826f7ce69"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise04/raw.bin",
+      "bytes": 2097152,
+      "sha256": "f307c56ca1bc443bf9f50d07a800cb0556f1b84679b28846fd0704ec764122a7"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise04/reference.bin",
+      "bytes": 2059536,
+      "sha256": "e2153664ff439c7d654b2f84750766eff8a7fab059ec11c00a8c222750b10015"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise05/raw.bin",
+      "bytes": 2097152,
+      "sha256": "362627d363066003b0e133080ab757ec628dd14508855f3a6e7e261f7f010910"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise05/reference.bin",
+      "bytes": 2059536,
+      "sha256": "74d36f0b2d84443208299f71383ad45dd4fa0752f5ca7396b82dbe76c5c252a2"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise06/raw.bin",
+      "bytes": 2097152,
+      "sha256": "25707665f9f1746ddd781c43312bfbfbb5840c664283dec001ab45cd43a53498"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise06/reference.bin",
+      "bytes": 2059536,
+      "sha256": "e8b131386a0da4c3f9fd6c31824e0b4b0a05fc1234889d2d221ca0715efc52e8"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise07/raw.bin",
+      "bytes": 2097152,
+      "sha256": "55d3af403b849b5a24cfd752cbb16a4e61a3dfb67e3e55a221f7ec86f8900012"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise07/reference.bin",
+      "bytes": 2059536,
+      "sha256": "8a04e5c93c18b920528dc67ce4722fcb59ad3d71aaa5e38706e5c60e5dcdc492"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise08/raw.bin",
+      "bytes": 2097152,
+      "sha256": "eb830038b2f7f134b0f4aba6fb2a33407063a0a35ce6f544e0acc628dc46d048"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise08/reference.bin",
+      "bytes": 2059536,
+      "sha256": "4cedbc2aff66622ac58d472597fc2ac08972ce1ee64e3e148ca446cbc5c3712f"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise09/raw.bin",
+      "bytes": 2097152,
+      "sha256": "ee62ac15c13510e180797d239263889ed6782a33f8f97fb7b4e8a62a8ffd81d5"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise09/reference.bin",
+      "bytes": 2059536,
+      "sha256": "67f79968c9744a5289d400fbba21262df81c77bc9da2ab2185f49e22ab3a96f1"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise10/raw.bin",
+      "bytes": 2097152,
+      "sha256": "89faad32da086cdeccc0c2bb046d3955b6ac01002a97fee3b0808f91e185e69d"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise10/reference.bin",
+      "bytes": 2059536,
+      "sha256": "42deebafa24d7945026d1d99d93c4c816f1f036d834e6cd38a0815f355303075"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise11/raw.bin",
+      "bytes": 2097152,
+      "sha256": "d0086624c9c642f56b18e3fedac5afc2c3fbe9d86e78c0d89872c0fbc5149ae6"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise11/reference.bin",
+      "bytes": 2059536,
+      "sha256": "00d33a853a921c3c7ca2a414f1934f81d0cc5ce4884b157805672e6bed6e0a47"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise12/raw.bin",
+      "bytes": 2097152,
+      "sha256": "927478026b343d67a59bd76ae1486bf906f0b1fd48c9748b0b545f62b7ea0d3c"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise12/reference.bin",
+      "bytes": 2059536,
+      "sha256": "67053f76795a89afa18880d6255a0391be6b37b78bbf5b8645d79da63fcbf747"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise13/raw.bin",
+      "bytes": 2097152,
+      "sha256": "820b637fe223924c27676e75283dfd58af40cec50730ca2920dcc31c597432fb"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise13/reference.bin",
+      "bytes": 2059536,
+      "sha256": "0f659874b0ad7951612616f97e5fa225a86145b768e678ab29982116163066f9"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise14/raw.bin",
+      "bytes": 2097152,
+      "sha256": "6e18e8a28d28274a3b6d936379b689a344b6d7a48a26d7fceee57cc37a0d5f46"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise14/reference.bin",
+      "bytes": 2059536,
+      "sha256": "23553edd04116d7fe70966cbd1a3d70eb04de637601f7396ab76f7ea647660fa"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise15/raw.bin",
+      "bytes": 2097152,
+      "sha256": "06e51f3a86b594b23be239bf7d4a677a95564de8ab8eda9ee92675caadcc7716"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise15/reference.bin",
+      "bytes": 2059536,
+      "sha256": "1dad792a1a61b1d5f6946a6d0f3cde6290bc4335f461fa2ea0cb37225dc21fc3"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise16/raw.bin",
+      "bytes": 2097152,
+      "sha256": "c420dbfe951705cc47a56c8d34a8bc7011e3ae784730e0782ade3d3871902c4a"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise16/reference.bin",
+      "bytes": 2059536,
+      "sha256": "c211de25780073b6d0e9b57869dec7711a9bc494d58ac6bc7fcd9afe568d0f4f"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise17/raw.bin",
+      "bytes": 2097152,
+      "sha256": "8a2a6c50672ebc4da81d05fb3316396b487e8371f482ef3193823db06ecd21b3"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise17/reference.bin",
+      "bytes": 2059536,
+      "sha256": "23bc2cc3c1eddb2fec00117314abee501381f79e071826584f5aa439700f5d51"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise18/raw.bin",
+      "bytes": 2097152,
+      "sha256": "ae797125508bb5d26ba37a4246b0302a0109dbc8440483a9196763b7b5996253"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise18/reference.bin",
+      "bytes": 2059536,
+      "sha256": "28f3904f18571ccf207b01ace1e1a512366aa995d00e7dcb0d814f9c003ca63b"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise19/raw.bin",
+      "bytes": 2097152,
+      "sha256": "55368a2c15c00fe60b13ed811cb089becfe64bbd5952bdfa00ab3ca3b21f6f8a"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/noise19/reference.bin",
+      "bytes": 2059536,
+      "sha256": "fdcde02f24f93d95d96f8886d5953404550498776a78f6ca7fb2b52557c24239"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/offgrid/raw.bin",
+      "bytes": 2097152,
+      "sha256": "7e840a2f964a8df2e832c51ecf5191c2f34eaf273621b054f8381bc3c1cd2b34"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/offgrid/reference.bin",
+      "bytes": 2059536,
+      "sha256": "54d886340973f45f63ce1b206c0246b7f4f76628c7ef689a6c00f8ce87bdc641"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/paper_clean/raw.bin",
+      "bytes": 2097152,
+      "sha256": "4dc118eba1e7cd75bc0bf70b98d5565efe90449fae25fdcdabffeeb83c2c0061"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/paper_clean/reference.bin",
+      "bytes": 2059536,
+      "sha256": "bf0d3216448797f233d24776f500857e7bb6b3b7009b5401bb5dd5f154ec2661"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/static/G.bin",
+      "bytes": 131072,
+      "sha256": "3e98a0567188e83365221e2fdfd27aec1b84f68051301428c974a94548d5627a"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/static/G64.bin",
+      "bytes": 262144,
+      "sha256": "de7970b2c2faccc57eb86ead40ec1f9ac6e97f9e4e86ebd9f585875dfab69fa0"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/static/Q.bin",
+      "bytes": 786432,
+      "sha256": "a3c4eaeec0c7f3a1d2221155f35053fe4414177527dde05af72de580af966656"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/static/Q64.bin",
+      "bytes": 1572864,
+      "sha256": "0b6ff71b651a204f2fedeb9922f479bd9f310513b01afba5e7b4a51efa06b14c"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/static/angles.bin",
+      "bytes": 3208,
+      "sha256": "61f295141ca5a74cce7f942e67624bf240a5aa333769e024f0e87a3c9c8cb3b7"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/static/meta.txt",
+      "bytes": 188,
+      "sha256": "7a5c8e5cba5741d623e7ea2feb9e73aab0a35a881161c4f9ed5db4ae7e091bf4"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/static/positions.bin",
+      "bytes": 256,
+      "sha256": "6312eee56013775308e3f29af86a0a47b38b423fe93227149646774833c7a169"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/static/ranges.bin",
+      "bytes": 2568,
+      "sha256": "5cd0b0c5b12837da07d7f57ff1fe642b6edd599f7b6ca3120961758a67efbfd8"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/static/sector_map.bin",
+      "bytes": 1604,
+      "sha256": "2e1556f12041858b0306f9b567e91d3fabd0ae42f214769b90df4e8c836b52a1"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/static/waveform_metadata.json",
+      "bytes": 1338,
+      "sha256": "8b4da8cbba6970dc4a60ea2a8b1cf154e2eca12cf40f51f37b176760e18dfe3a"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/zero/raw.bin",
+      "bytes": 2097152,
+      "sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee"
+    },
+    {
+      "path": "implementation_v2/python/generated/cdm/zero/reference.bin",
+      "bytes": 2059536,
+      "sha256": "876c9b64be71d6c50b3d8a8da9f9f655f3a01276338348ccc7ba656e00bca3be"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/boundary_points/raw.bin",
+      "bytes": 8388608,
+      "sha256": "9371654bdef54775a111668e778d8ce75f74eb3b0f9f8fde42f568581c52f322"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/boundary_points/reference.bin",
+      "bytes": 2059536,
+      "sha256": "d835311616e1dc3654853096e8f860a7a88b895e251aacdb0784d545a4a564ca"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/complex_impulse/raw.bin",
+      "bytes": 8388608,
+      "sha256": "539e0edfd39cfd15c1c13596b4a86c5944f339e66143cbd599df7069b34405da"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/complex_impulse/reference.bin",
+      "bytes": 2059536,
+      "sha256": "2b3b5a14758a2293c6539101a2afcdfa7e51dbbeec02309150477426a1f1bd87"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise00/raw.bin",
+      "bytes": 8388608,
+      "sha256": "74255a31f41a34049ff5757a0440f47803a68b813c5bd353a3d3b605b9433e45"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise00/reference.bin",
+      "bytes": 2059536,
+      "sha256": "6dd347af87c722acb2fbaa0c3347d1ebe5efa994baf077e24073ff3936b0fa28"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise01/raw.bin",
+      "bytes": 8388608,
+      "sha256": "d5197b5a484e3d46a08341f26d8f967cca37af57aa5594650c9fed6907a56e5d"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise01/reference.bin",
+      "bytes": 2059536,
+      "sha256": "ac8e630ec035fd4000bb5ae830e38319c4d0328819c0de29d82217c19931c497"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise02/raw.bin",
+      "bytes": 8388608,
+      "sha256": "eeed798f93779bb3c32cb49968396eaba352d569315716d559921f5be4f21f0c"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise02/reference.bin",
+      "bytes": 2059536,
+      "sha256": "57bed6eb1d3d8b31dcfc3cafd20eb5123f3a3f66819e0a71e28162e201a48aa1"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise03/raw.bin",
+      "bytes": 8388608,
+      "sha256": "cae6d319e4e4b18791faeff89566952702b7e2563589edb8d1114200fe51fa52"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise03/reference.bin",
+      "bytes": 2059536,
+      "sha256": "796ffdf88f56b7f74132f844cdf3289fcf62789c532fda6df03fb8dbb4abd167"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise04/raw.bin",
+      "bytes": 8388608,
+      "sha256": "1e8dc910f72a6172f67bd8e261735cbe05846adfd22beeb68676273f9aaf425c"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise04/reference.bin",
+      "bytes": 2059536,
+      "sha256": "19411ee13f5574d56e5e6d5321631c439a1f509f50a63f96ea2e195f5a4e0bd9"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise05/raw.bin",
+      "bytes": 8388608,
+      "sha256": "221ce4ffb6a3bcae5d66b98fd9481e828e6dd926f23be931d6cf44793bba2111"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise05/reference.bin",
+      "bytes": 2059536,
+      "sha256": "f644feb353f80dc483a259158c6930def9175f4cbd30ec49bcd4115d34265214"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise06/raw.bin",
+      "bytes": 8388608,
+      "sha256": "cda97feccec1b1d52a1bcf0e703b763123a03109327d1bb070ff8c4c2aee1d02"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise06/reference.bin",
+      "bytes": 2059536,
+      "sha256": "125299194ca46e0cdbf0bd48911fd1a7aed0d9b867e09760459e3205403f7ed8"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise07/raw.bin",
+      "bytes": 8388608,
+      "sha256": "47feffd374d364d8b6206a60259afb6dff2a24a3763474ae44bca986e039781e"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise07/reference.bin",
+      "bytes": 2059536,
+      "sha256": "84869232b51139ef3a6b6c6ba6343b7e05d950ce315cf22ec093a6e897e5fd78"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise08/raw.bin",
+      "bytes": 8388608,
+      "sha256": "2a18903d5a5385ebca03cbf8aacc66309e18a7533953e39890b7a44e19c95b69"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise08/reference.bin",
+      "bytes": 2059536,
+      "sha256": "be5933cbb12e20e0e7ef85c14009b218c1a16779038fffdebb46e93e8feb48d0"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise09/raw.bin",
+      "bytes": 8388608,
+      "sha256": "6532cb1fef85136f751997128acdd8a0dd99fe38b24b67ddaebd455cab43cd19"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise09/reference.bin",
+      "bytes": 2059536,
+      "sha256": "b66b0de6eb122c2fc90b47507899f9d6cd42ccedd004e8f88f62c63d7194d0f7"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise10/raw.bin",
+      "bytes": 8388608,
+      "sha256": "374d944a0d176a08cbc73afe1ae002ecfbf59819a8905ba0221203c36787f57a"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise10/reference.bin",
+      "bytes": 2059536,
+      "sha256": "1bb151275cdad7d330c1b028fa9208a90ab4855b4f54227e1a3ee72701495559"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise11/raw.bin",
+      "bytes": 8388608,
+      "sha256": "1b53fad7323ebec570eb4bb8649cbb0a7044c95becd53e14a795140aa8f52508"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise11/reference.bin",
+      "bytes": 2059536,
+      "sha256": "0871c0a14ddd156067503760d32d75e4be13a7f3e3ac77603cfdd34d39a5a536"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise12/raw.bin",
+      "bytes": 8388608,
+      "sha256": "74469c55cd9e235ef8e44ef782da7444a3aab903e866b7848bf0aa8feb3c3d81"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise12/reference.bin",
+      "bytes": 2059536,
+      "sha256": "985ee4db547ba07ebee4c5c23869cfe0ca4e7a29a30afbec26df2bd611ce178e"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise13/raw.bin",
+      "bytes": 8388608,
+      "sha256": "b1eeaaf29be136066356f2f60e197340a8324590b5060caf7debda134ee2790b"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise13/reference.bin",
+      "bytes": 2059536,
+      "sha256": "96159457d10c99d6abbf9f71c0375b8fedba084e73fe371161e32adb83b9e706"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise14/raw.bin",
+      "bytes": 8388608,
+      "sha256": "6cf7249b473373f9841510bc64c5adb97d131fad4e6fc47d817a9abd5f30326b"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise14/reference.bin",
+      "bytes": 2059536,
+      "sha256": "0de7d32dc360cf22079db80814596e7615373f776d88e8a5b51db752d23cf7c3"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise15/raw.bin",
+      "bytes": 8388608,
+      "sha256": "860472f50ea0aa75c75fc8b7bd7419fdcbd579755534518e10b5b1a8ac06fc52"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise15/reference.bin",
+      "bytes": 2059536,
+      "sha256": "2692c53cc5dc68752bc03c036f0d3e56887314e717bef8b87525b3d49ed6b35d"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise16/raw.bin",
+      "bytes": 8388608,
+      "sha256": "6c91251c909289ac1329782aec8388cf6f38c35e58cbc874ae11f89de108aa4d"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise16/reference.bin",
+      "bytes": 2059536,
+      "sha256": "8fbdbb01db1d874edcad210d15caaf353a88fbca15e398b0e182e81925e19d0e"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise17/raw.bin",
+      "bytes": 8388608,
+      "sha256": "cb70fb4d60077ae9f1f848e249a749bf7a08862460bbdc369fd138982c63c1f8"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise17/reference.bin",
+      "bytes": 2059536,
+      "sha256": "1b5cf092b6341ddba2dd02a077d4b7205d00644488148d0080e20a42027d79bc"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise18/raw.bin",
+      "bytes": 8388608,
+      "sha256": "89b67e2308245e307a240864946068a5d0d4e496c3937ce58941a990401d1ea2"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise18/reference.bin",
+      "bytes": 2059536,
+      "sha256": "6ed0ed5ec91c838afe906a321459381ee1e7b01ab1d65d1e8c634f35f97cea06"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise19/raw.bin",
+      "bytes": 8388608,
+      "sha256": "df4e8109b743f478f59f4db36e86af1d831831648b5766e6a5e815b59e22143f"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/noise19/reference.bin",
+      "bytes": 2059536,
+      "sha256": "cdf945643ceb88c1b48e479f1d5833ed5a454e5add0b1b8a191f09b407420f6c"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/offgrid/raw.bin",
+      "bytes": 8388608,
+      "sha256": "56f7d87869252c3771284f569af7e9f215693de72faf26fcbb49433a75ae2e56"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/offgrid/reference.bin",
+      "bytes": 2059536,
+      "sha256": "7697c718b8eea7a47c18c90d21beefad1b5748639288d38793eb1d02c29ef01c"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/paper_clean/raw.bin",
+      "bytes": 8388608,
+      "sha256": "01abdcf45901786d774de9e374cdc01c158a15a928952d883f28e3eaccc9c41b"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/paper_clean/reference.bin",
+      "bytes": 2059536,
+      "sha256": "889e01c139b7d90cf2ed182b169734955710cf0e90162fd52f58630d53e8215f"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/static/G.bin",
+      "bytes": 131072,
+      "sha256": "3e98a0567188e83365221e2fdfd27aec1b84f68051301428c974a94548d5627a"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/static/G64.bin",
+      "bytes": 262144,
+      "sha256": "de7970b2c2faccc57eb86ead40ec1f9ac6e97f9e4e86ebd9f585875dfab69fa0"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/static/Q.bin",
+      "bytes": 131072,
+      "sha256": "54c907db20d71d7b4fff27043905ffa512260834fceecfa3f76e569d8d9a1df0"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/static/Q64.bin",
+      "bytes": 262144,
+      "sha256": "d35980c338ddd8ecc2b0d060ea75e4faff229186463d7ec579e4d2a7f233a699"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/static/angles.bin",
+      "bytes": 3208,
+      "sha256": "61f295141ca5a74cce7f942e67624bf240a5aa333769e024f0e87a3c9c8cb3b7"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/static/meta.txt",
+      "bytes": 189,
+      "sha256": "e6c094848b01a80d3fd272fa086b67b4170fd92c925d7dc7358e1990312e79da"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/static/positions.bin",
+      "bytes": 1024,
+      "sha256": "3201ac905f0aa94650f8248db140989582c93e4026c8c56f98eb46e585f23e50"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/static/ranges.bin",
+      "bytes": 2568,
+      "sha256": "5cd0b0c5b12837da07d7f57ff1fe642b6edd599f7b6ca3120961758a67efbfd8"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/static/sector_map.bin",
+      "bytes": 1604,
+      "sha256": "c7570c208aaf8bcd75bd8951c1d6439b7bf62faa1bcdc16d5e307fa0807f3ff2"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/static/waveform_metadata.json",
+      "bytes": 983,
+      "sha256": "c53e68a811355d1ee6117f128b2cf1eedd6d4da21c3ea0bef7f74b6d734cf555"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/zero/raw.bin",
+      "bytes": 8388608,
+      "sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74"
+    },
+    {
+      "path": "implementation_v2/python/generated/dense/zero/reference.bin",
+      "bytes": 2059536,
+      "sha256": "876c9b64be71d6c50b3d8a8da9f9f655f3a01276338348ccc7ba656e00bca3be"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/boundary_points/raw.bin",
+      "bytes": 2097152,
+      "sha256": "b68bcddb42da5228dd92678630d42d5cf6b1e1d818dac9b36ae1ac7b10b49057"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/complex_impulse/raw.bin",
+      "bytes": 2097152,
+      "sha256": "f758ec37d65f40463b86d63e2327b216a76025da77e83c4f8b2014330ed596e3"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise00/raw.bin",
+      "bytes": 2097152,
+      "sha256": "33366a2d62d32b6868af9bfd73608649a5c9c47c5157087588dafab0059ee29f"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise01/raw.bin",
+      "bytes": 2097152,
+      "sha256": "4cf84a5c0b27789ae51e8baa9bd959ed92199b00c7f8d44a4b92f48bcb0389ca"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise02/raw.bin",
+      "bytes": 2097152,
+      "sha256": "a9cf969c301100b290282117df02afc3fbb7a3120185b62a521d00f48a8ccc42"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise03/raw.bin",
+      "bytes": 2097152,
+      "sha256": "46f138df03d736cc5e7cb7cdb9f684035cb6f572083a11852d6a18a32ca261cf"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise04/raw.bin",
+      "bytes": 2097152,
+      "sha256": "7d9a7364815df53d6f7aa9bb89ad73fe3a818e993b206b5bf9b4e6590c53b22c"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise05/raw.bin",
+      "bytes": 2097152,
+      "sha256": "44f958bc091d20ce8d753513a812a6c9a96d825d0f68a981736007a5a9a1f82c"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise06/raw.bin",
+      "bytes": 2097152,
+      "sha256": "3248d939d5e413340a4920c48610dd222c3bd24a2b6f7063b6c1b1f366786f89"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise07/raw.bin",
+      "bytes": 2097152,
+      "sha256": "2787da5d7ee07d02b3a08416b5c4c8473f4e3ad913db8b9c97f5a8ed94b1ebcd"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise08/raw.bin",
+      "bytes": 2097152,
+      "sha256": "792e29b476cbe778d4d9805698b3f899f08681aff68e877082e7816506499f7b"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise09/raw.bin",
+      "bytes": 2097152,
+      "sha256": "53dd6eb1da8d0b8d81187aa980c90cc7bb878012d32268667aaac8446daf0dba"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise10/raw.bin",
+      "bytes": 2097152,
+      "sha256": "d8d0fd4a29b787e64e3fa17f9845d3855b1e26392138daff82e3431df53ff720"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise11/raw.bin",
+      "bytes": 2097152,
+      "sha256": "6b5e7c4eb00959ee9e92768d534768a94919a8a88b349773ca118752bc4aae77"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise12/raw.bin",
+      "bytes": 2097152,
+      "sha256": "139cd1c5a8c990acf74009c4bd22b2ba97709c321391ff6211137da32c7798fb"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise13/raw.bin",
+      "bytes": 2097152,
+      "sha256": "977e0a765de74ddd28d27a366a4b3e35c14afe6751bbebd695144417d893f0c6"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise14/raw.bin",
+      "bytes": 2097152,
+      "sha256": "66746fed1f53cc52fc2b489d0ac15ad3d710dd3adb53fcf6a2bc25c9f8b94551"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise15/raw.bin",
+      "bytes": 2097152,
+      "sha256": "53237e50f97206196bb78f6508589ee0441ef7f9b458812d186dacfe7b2f8e02"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise16/raw.bin",
+      "bytes": 2097152,
+      "sha256": "21a67f595644ee165d618fe2dc6a325fff0289f9ddbe164d9d7fc5dec64ef6c6"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise17/raw.bin",
+      "bytes": 2097152,
+      "sha256": "bab04062a66fd11ec41f957e0f6e87b3ab6c38f256c357fa7ca2b0b9c10ee173"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise18/raw.bin",
+      "bytes": 2097152,
+      "sha256": "1c9f3a70edd6dbf9e29e6a6ea8b0cc32954b38ca6449ea82fd217abdd74f445d"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/noise19/raw.bin",
+      "bytes": 2097152,
+      "sha256": "1a8af285bbfada5ea216d54c4f662cef5e442eaabad167092d5ab6ce3107721c"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/offgrid/raw.bin",
+      "bytes": 2097152,
+      "sha256": "00c928c2c6ae74f8437e7581afd26aa3419ec812acf8311610ed50bcde32c237"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/paper_clean/raw.bin",
+      "bytes": 2097152,
+      "sha256": "c1b9805879bee8c19048813a5b0a9e12997c18ccd8208bf59928188861b1afc4"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/static/G.bin",
+      "bytes": 131072,
+      "sha256": "3e98a0567188e83365221e2fdfd27aec1b84f68051301428c974a94548d5627a"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/static/G64.bin",
+      "bytes": 262144,
+      "sha256": "de7970b2c2faccc57eb86ead40ec1f9ac6e97f9e4e86ebd9f585875dfab69fa0"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/static/Q.bin",
+      "bytes": 786432,
+      "sha256": "7a9f344d236ea19d52a82aed11e507eecdf127c5f6b33ace2110f9c804fb809e"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/static/Q64.bin",
+      "bytes": 1572864,
+      "sha256": "dcf190b1fa36fce4913576f74ba1cdf3f99384990d9efd6c45cd76f6ae54c8ca"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/static/angles.bin",
+      "bytes": 3208,
+      "sha256": "61f295141ca5a74cce7f942e67624bf240a5aa333769e024f0e87a3c9c8cb3b7"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/static/meta.txt",
+      "bytes": 188,
+      "sha256": "7a5c8e5cba5741d623e7ea2feb9e73aab0a35a881161c4f9ed5db4ae7e091bf4"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/static/positions.bin",
+      "bytes": 256,
+      "sha256": "6312eee56013775308e3f29af86a0a47b38b423fe93227149646774833c7a169"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/static/ranges.bin",
+      "bytes": 2568,
+      "sha256": "5cd0b0c5b12837da07d7f57ff1fe642b6edd599f7b6ca3120961758a67efbfd8"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/static/sector_map.bin",
+      "bytes": 1604,
+      "sha256": "2e1556f12041858b0306f9b567e91d3fabd0ae42f214769b90df4e8c836b52a1"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/static/waveform_metadata.json",
+      "bytes": 1260,
+      "sha256": "8e349a0669737d99d7f0b614d7b7a414a4dd6395ba13048888805ec301134d10"
+    },
+    {
+      "path": "implementation_v2/python/generated/fdm/zero/raw.bin",
+      "bytes": 2097152,
+      "sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee"
+    },
+    {
+      "path": "implementation_v2/results/FP64_METRIC_SUPPLEMENT.json",
+      "bytes": 153883,
+      "sha256": "6abed06bb5c81c5f3051f4da418d49b84117bc08e9c6ffaf9693c61958d2a9c5"
+    },
+    {
+      "path": "implementation_v3/GATE_RECEIPT_V3.json",
+      "bytes": 251051,
+      "sha256": "8e97bc525d0146d0d2f65af00efaa3df17ac7362d2154a1e7e532dec11b7b112"
+    },
+    {
+      "path": "implementation_v3/core/engine_v3.cu",
+      "bytes": 30530,
+      "sha256": "4065b0ff849ab2cf81aba60961a5764946c7aed70cef76858dc9e17f88665fbd"
+    },
+    {
+      "path": "implementation_v3/core/engine_v3.h",
+      "bytes": 2113,
+      "sha256": "72a82a20221980600b387f407aa186cab673d58acd728d1d5307b0a802fa7160"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/H.bin",
+      "bytes": 131072,
+      "sha256": "b48e936a90a9d3f22cad8c9342cd059bc58646efa708d825c56fd5b73cccb2f2"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/H64.bin",
+      "bytes": 262144,
+      "sha256": "9784c903bfc1a682a27fc657e625dec7419e4b76605c0e12e5a6933598c3528f"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/boundary_points/reference.bin",
+      "bytes": 2059536,
+      "sha256": "39204a70e54d391b6851dbaf164046dd78514c94322abbf625f6d89d33f54e33"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/complex_impulse/reference.bin",
+      "bytes": 2059536,
+      "sha256": "01077a782bd5951a72f1836bd81bd8cf45d5658d05f040307cfc3fcceada3f92"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise00/reference.bin",
+      "bytes": 2059536,
+      "sha256": "d37396e2b5beca6c92e104f45f052400db1e78df6e5b21a17b6336ac1dc768f6"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise01/reference.bin",
+      "bytes": 2059536,
+      "sha256": "8c33d6880a67ec69521b212ef21a8bb316d2f775c9354c8d651232553e0c43de"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise02/reference.bin",
+      "bytes": 2059536,
+      "sha256": "d897ce8148a8ae0875b402101294fff2df8b9a5d3e7d98d19db217ca04cc9471"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise03/reference.bin",
+      "bytes": 2059536,
+      "sha256": "942c32defddc1f27b2e83c2e92073d949a6a4ecfe0e06aa65116d5073211f370"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise04/reference.bin",
+      "bytes": 2059536,
+      "sha256": "22b3f4afd31c38734fc91fe2fdeb837f6e87d239ba74a8f94a831f8b67b88cf0"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise05/reference.bin",
+      "bytes": 2059536,
+      "sha256": "89b4552d68ee82a773b81a61bf5de56593ef2d8ecce2e7b0e3ce3b7a9f153c1b"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise06/reference.bin",
+      "bytes": 2059536,
+      "sha256": "e3cba61f14d4a88e6f5b17a0842d22291842eae4e80bb382fb648d57bcac66d9"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise07/reference.bin",
+      "bytes": 2059536,
+      "sha256": "efe173dfdc0bf68a9d9a80f2ca9cc2bd76181d3d7df72338497f601542957024"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise08/reference.bin",
+      "bytes": 2059536,
+      "sha256": "0429049ae9a6951565ad66d416f1da534228cc6e765b7d38a136e56a40d23372"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise09/reference.bin",
+      "bytes": 2059536,
+      "sha256": "03c63f7503b650a262c846e4b1123aa9d9c490bd14f8b51a42d91c2c69973be6"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise10/reference.bin",
+      "bytes": 2059536,
+      "sha256": "cc4203c8381077b4d28d45494b8cf61d671c7ba309812164942b7705b291b40b"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise11/reference.bin",
+      "bytes": 2059536,
+      "sha256": "aa546f3dac25f8deebdcf7bb90092bb2fba9b7514b4478be77ff1fccb3adc62e"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise12/reference.bin",
+      "bytes": 2059536,
+      "sha256": "7cb74939abb0bb6c37d80649c8f5b4d1dcd4f824c152cc7dc40e2a4ff016d536"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise13/reference.bin",
+      "bytes": 2059536,
+      "sha256": "a3bfff2f36bd37557263bd0b20cca79e7775ea17f0aff01ca0bcf576df91bfb2"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise14/reference.bin",
+      "bytes": 2059536,
+      "sha256": "41a12da65b502920fedc9072a7c3fe28a17938c5cc5f6de18b90bee1b70a2128"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise15/reference.bin",
+      "bytes": 2059536,
+      "sha256": "ffda498b3c1c55282b46d85d041f6c12f6c912b00b2c22410795f323da82dbcc"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise16/reference.bin",
+      "bytes": 2059536,
+      "sha256": "554662c37e49fb1dc79d5bdb51ae2dbdbbc47d49e96f06c6095992d12d7d8a1f"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise17/reference.bin",
+      "bytes": 2059536,
+      "sha256": "de2c8cc455b1235852259dd1d992ba84a2a744a8146cf0756e50408790f4bc3f"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise18/reference.bin",
+      "bytes": 2059536,
+      "sha256": "5e15f4c67f5378d61036f33b091d39a1f6525e0277673d2455d7f2cbf2eed4d9"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/noise19/reference.bin",
+      "bytes": 2059536,
+      "sha256": "afb2a20939e452404f05998462ae085808bd4de360a6f95bc96e5fb7a2229111"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/offgrid/reference.bin",
+      "bytes": 2059536,
+      "sha256": "dc2a3f49cbe2e1f2d050fb7dcfd59c5efa2f965f23168c2cd85b27a03590c462"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/paper_clean/reference.bin",
+      "bytes": 2059536,
+      "sha256": "a4c58df53c90ac1d000461644410cacd4ce3449a6d39c4e76b56bf1546f43f4a"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/cases/zero/reference.bin",
+      "bytes": 2059536,
+      "sha256": "876c9b64be71d6c50b3d8a8da9f9f655f3a01276338348ccc7ba656e00bca3be"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/lut.bin",
+      "bytes": 65600,
+      "sha256": "902db4cf3ed6257c5c4e9cea9e617f60a2086ad53e2ce73ff772c8ae6b17d5a8"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/lut64.bin",
+      "bytes": 131200,
+      "sha256": "e53443ffde0fbc1476b2fc884b7abfec6a1462295279d7bd63632825c6df35ce"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/meta.txt",
+      "bytes": 351,
+      "sha256": "95e4dbcc72ce7f9ff1102ce82bc10436c2eeff8ddaa8b03bb701e9cdf2a6cae3"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/mix.bin",
+      "bytes": 786432,
+      "sha256": "3193e4fcc374faaf90f35f84c8bab9d333af456d788d093d144f1674b1a53256"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/mix64.bin",
+      "bytes": 1572864,
+      "sha256": "1d80df2d7876c66df61d4d01a937ff97ca8638fd35fec8c15984cd599f1da8c2"
+    },
+    {
+      "path": "implementation_v3/python/generated/d4_sinc16/offsets.bin",
+      "bytes": 48,
+      "sha256": "858c001be9b5a539c6198a44486c30603195a543f534084063825e0b26436180"
+    }
+  ],
+  "binary_sha256": "3c3ec8efaa797f9645063a00b1803b4f9f87a51563dee183e8aa43f965a94121",
+  "methods": [
+    "dense",
+    "cdm",
+    "fdm"
+  ],
+  "cases": [
+    "boundary_points",
+    "complex_impulse",
+    "noise00",
+    "noise01",
+    "noise02",
+    "noise03",
+    "noise04",
+    "noise05",
+    "noise06",
+    "noise07",
+    "noise08",
+    "noise09",
+    "noise10",
+    "noise11",
+    "noise12",
+    "noise13",
+    "noise14",
+    "noise15",
+    "noise16",
+    "noise17",
+    "noise18",
+    "noise19",
+    "offgrid",
+    "paper_clean",
+    "zero"
+  ],
+  "equivalence_claimed": false,
+  "adopted_engineering_candidate": "d4_sinc16",
+  "pre_measurement_initial_manifest_sha256": "23288e4eb884b5d460418fcbf1e627dae278e11a7593660c1248278ecd3b29be"
+}

@@ -1,0 +1,6 @@
+{
+  "sample_count": 27,
+  "requested_interval_ms": 100,
+  "sampled_max_used_bytes": 3659882496,
+  "definition": "MemTotal minus MemAvailable; sampled auxiliary, not continuous peak"
+}

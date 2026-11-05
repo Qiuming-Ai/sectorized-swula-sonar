@@ -1,0 +1,8 @@
+method,plan,length,batch,dtype,reported_workspace_bytes,sharing
+dense,native forward,16384,128,CUFFT_C2C,1024,max requirement shared; sequential plan execution
+dense,interpolated inverse,131072,128,CUFFT_C2C,134217728,max requirement shared; sequential plan execution
+cdm,native forward,16384,32,CUFFT_C2C,256,max requirement shared; sequential plan execution
+cdm,interpolated inverse,131072,32,CUFFT_C2C,33554432,max requirement shared; sequential plan execution
+fdm,native forward,16384,32,CUFFT_C2C,256,max requirement shared; sequential plan execution
+fdm,native inverse,16384,32,CUFFT_C2C,256,max requirement shared; sequential plan execution
+fdm,low inverse,4096,32,CUFFT_C2C,256,max requirement shared; sequential plan execution

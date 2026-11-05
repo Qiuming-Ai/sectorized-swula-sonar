@@ -1,0 +1,4 @@
+﻿method,replications,truth_magnitude_nmse_db,truth_magnitude_nmse_db_sd,truth_magnitude_nmse_db_ci95_halfwidth,truth_magnitude_correlation,truth_magnitude_correlation_sd,truth_magnitude_correlation_ci95_halfwidth,dense_magnitude_correlation,dense_magnitude_correlation_sd,dense_magnitude_correlation_ci95_halfwidth,range_profile_correlation_to_clean_Dense,range_profile_correlation_to_clean_Dense_sd,range_profile_correlation_to_clean_Dense_ci95_halfwidth,angle_profile_correlation_to_clean_Dense,angle_profile_correlation_to_clean_Dense_sd,angle_profile_correlation_to_clean_Dense_ci95_halfwidth
+dense,1,-0.23283821104717453,,,0.2227868195761114,,,1.0000000000000002,,,1.0,,,1.0,,
+cdm,1,-0.29570849943236394,,,0.2853771948126643,,,0.7821139754932936,,,0.9760054597445939,,,0.8418108006856073,,
+fdm,1,-0.06437638906121872,,,0.095214237820084,,,0.533340796737984,,,0.9668455556887976,,,0.7760863106635941,,

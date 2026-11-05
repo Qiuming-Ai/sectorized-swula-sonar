@@ -1,0 +1,41 @@
+{
+  "record_kind": "sanitized acquisition event record",
+  "returncode": 0,
+  "whole_runner_timeout": false,
+  "events": [
+    {
+      "event": "initialized",
+      "monotonic_ns": 27689966507851,
+      "method": "cdm",
+      "mode": "power",
+      "session": 2
+    },
+    {
+      "event": "idle_begin",
+      "monotonic_ns": 27689966586925
+    },
+    {
+      "event": "warmup_begin",
+      "monotonic_ns": 27720006255505
+    },
+    {
+      "event": "window_start",
+      "monotonic_ns": 27780013190154,
+      "t0_ns": 27780013190154,
+      "target_submission_ns": 120000000000
+    },
+    {
+      "event": "window_end",
+      "monotonic_ns": 27900015134100,
+      "t0_ns": 27780013190154,
+      "t1_ns": 27900015134100,
+      "completed_blocks": 7288,
+      "workload_valid": true
+    },
+    {
+      "event": "completed",
+      "monotonic_ns": 27900101988190,
+      "success": true
+    }
+  ]
+}

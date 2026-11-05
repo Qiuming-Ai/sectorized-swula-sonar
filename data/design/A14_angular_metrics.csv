@@ -1,0 +1,16 @@
+ResponseType,Method,MethodLabel,TargetAngleDeg,HPBWDeg,FNBWDeg,PSLRDb,ISLRDb
+pure_receive,dense,Dense ULA,0,1.23999999999999,3.72,-42.6180342496976,-34.283139274265
+pure_receive,sw_ula,SW-ULA (common to CDM and FDM),0,1.2,3.88,0,3.63805312321456
+effective_angular_psf,dense,Dense ULA,0,1.23999999999999,3.72,-42.6180342496976,-34.283139274265
+effective_angular_psf,cdm,CDM SW-ULA,0,0.619999999999997,1.95999999999999,-41.7625041145606,-33.9432988064606
+effective_angular_psf,fdm_current,packed FDM SW-ULA,0,0.599999999999994,1.85999999999999,-41.7631137572287,-33.7713821846318
+pure_receive,dense,Dense ULA,8,1.24,3.76,-42.6167842540517,-34.288277762857
+pure_receive,sw_ula,SW-ULA (common to CDM and FDM),8,1.24,3.9,-0.000195599510609248,5.74410003654268
+effective_angular_psf,dense,Dense ULA,8,1.24,3.76,-42.6167842540517,-34.288277762857
+effective_angular_psf,cdm,CDM SW-ULA,8,1.24,3.9,-41.7626219210933,-36.161428732809
+effective_angular_psf,fdm_current,packed FDM SW-ULA,8,1.16,3.7,-41.7633638488592,-35.9751423532943
+pure_receive,dense,Dense ULA,41.25,1.62,4.96,-42.6153928954728,-34.8858680955948
+pure_receive,sw_ula,SW-ULA (common to CDM and FDM),41.25,1.6,5.16,0,4.69920862179346
+effective_angular_psf,dense,Dense ULA,41.25,1.62,4.96,-42.6153928954728,-34.8858680955948
+effective_angular_psf,cdm,CDM SW-ULA,41.25,1.6,5.14,-41.7629600106592,-37.4463392675821
+effective_angular_psf,fdm_current,packed FDM SW-ULA,41.25,1.74,5.64,-41.7635219926984,-38.1462463583917
